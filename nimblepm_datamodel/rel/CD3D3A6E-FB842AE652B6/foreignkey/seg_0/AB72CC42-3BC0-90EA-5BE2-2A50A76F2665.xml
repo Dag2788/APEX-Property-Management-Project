@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AB72CC42-3BC0-90EA-5BE2-2A50A76F2665" name="UTBC_DEPTCONTACT_CONTRACTV2">
+<sourceDDLFile>schema_test.sql</sourceDDLFile>
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:05:15 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel</ownerDesignName>
+<importedID>A32AE163-15ED-F2D5-1E57-1AC7C0837209</importedID>
+<containerWithKeyObject>5E95DF6E-2EEC-B889-38FD-FEEA094BF268</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>B6386830-F62D-C2A7-EAB0-92282CC581BD</localFKIndex>
+<keyObject>2A9E7876-D399-6F2E-66A9-7A7B43AEA85C</keyObject>
+<mandatory>false</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="schema_test" id="CD3D3A6E-066C-F12A-1649-FB842AE652B6" mainViewID="FE7E3CBF-CA9E-8C48-7122-B4A87F97F5C9">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:04:56 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>3FD120B5-9F4E-6278-D5E2-746D192C8319</selectedRDBMSSite>
+<importDDLFileStamps>
+<importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
+<fileName>schema_test.sql</fileName>
+<pathName>/Users/carlostrejo/Desktop</pathName>
+<dbType>11</dbType>
+</importDDLFileStamp>
+</importDDLFileStamps>
+</relationalModel>

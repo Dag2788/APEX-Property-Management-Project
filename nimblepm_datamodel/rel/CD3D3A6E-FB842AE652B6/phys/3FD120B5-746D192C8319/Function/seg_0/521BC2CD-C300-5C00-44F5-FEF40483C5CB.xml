@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FunctionOracle class="oracle.dbtools.crest.model.design.storage.oracle.FunctionOracle" name="GET_VEND_ID" directorySegmentName="seg_0" id="521BC2CD-C300-5C00-44F5-FEF40483C5CB">
+<sourceDDLFile>schema_test.sql</sourceDDLFile>
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:04:57 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel</ownerDesignName>
+<source>CREATE OR REPLACE FUNCTION  GET_VEND_ID &lt;br/&gt;(&lt;br/&gt;  vend_name_var   VARCHAR2&lt;br/&gt;)&lt;br/&gt;RETURN NUMBER&lt;br/&gt;AS&lt;br/&gt;  vend_id_var   NUMBER;&lt;br/&gt;BEGIN&lt;br/&gt;  SELECT vendor_id&lt;br/&gt;  into vend_id_var&lt;br/&gt;  FROM NPM_vendor&lt;br/&gt;  WHERE name = vend_name_var;&lt;br/&gt;  &lt;br/&gt;  return vend_id_var;&lt;br/&gt;  &lt;br/&gt;EXCEPTION &lt;br/&gt;  WHEN NO_DATA_FOUND THEN&lt;br/&gt;  RETURN 0;&lt;br/&gt;END;</source>
+</FunctionOracle>

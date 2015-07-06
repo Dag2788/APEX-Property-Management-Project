@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="650A16BF-37F4-7680-7A63-1E3140EABBCE" name="U_TO_R_RELATION">
+<sourceDDLFile>schema_test.sql</sourceDDLFile>
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:05:15 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel</ownerDesignName>
+<importedID>7F38DF55-5C1A-CF98-0FDA-5F5CD7A06DF2</importedID>
+<containerWithKeyObject>01F37111-948A-80C7-3292-4AAD2D9E276F</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>ADF08F41-CADE-CE59-4A1F-D0BC293BF747</localFKIndex>
+<keyObject>77A00863-620F-D8DF-F09E-F4BEB7B49A11</keyObject>
+<mandatory>false</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

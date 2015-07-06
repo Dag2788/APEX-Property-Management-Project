@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<StoredProcedureOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.StoredProcedureOraclev10g" name="INSERT_APPROV_SURVEY" directorySegmentName="seg_0" id="CF32282A-55E0-0FB9-F763-70CDE08CEB46">
+<sourceDDLFile>schema_test.sql</sourceDDLFile>
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:04:57 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel</ownerDesignName>
+<source>CREATE OR REPLACE PROCEDURE  INSERT_APPROV_SURVEY &lt;br/&gt;(&lt;br/&gt;  agreement_id_param NPM_agreements.agreement_id%TYPE&lt;br/&gt;)&lt;br/&gt;AS&lt;br/&gt;BEGIN&lt;br/&gt;  INSERT INTO NPM_agree_app (APPROVAL_ID, PARENT, COMPLETE, AGREEMENT_ID) values(15, null, &apos;n&apos;, agreement_id_param);&lt;br/&gt;  INSERT INTO NPM_agree_app (APPROVAL_ID, PARENT, COMPLETE, AGREEMENT_ID) values(18, null, &apos;n&apos;, agreement_id_param);&lt;br/&gt;END;</source>
+<body>CREATE OR REPLACE PROCEDURE  INSERT_APPROV_SURVEY &lt;br/&gt;(&lt;br/&gt;  agreement_id_param NPM_agreements.agreement_id%TYPE&lt;br/&gt;)&lt;br/&gt;AS&lt;br/&gt;BEGIN&lt;br/&gt;  INSERT INTO NPM_agree_app (APPROVAL_ID, PARENT, COMPLETE, AGREEMENT_ID) values(15, null, &apos;n&apos;, agreement_id_param);&lt;br/&gt;  INSERT INTO NPM_agree_app (APPROVAL_ID, PARENT, COMPLETE, AGREEMENT_ID) values(18, null, &apos;n&apos;, agreement_id_param);&lt;br/&gt;END;</body>
+</StoredProcedureOraclev10g>

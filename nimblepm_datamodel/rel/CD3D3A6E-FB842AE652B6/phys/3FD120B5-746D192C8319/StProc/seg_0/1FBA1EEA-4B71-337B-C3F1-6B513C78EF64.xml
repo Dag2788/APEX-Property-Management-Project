@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<StoredProcedureOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.StoredProcedureOraclev10g" name="DELETE_APPROV_GRANT_RES" directorySegmentName="seg_0" id="1FBA1EEA-4B71-337B-C3F1-6B513C78EF64">
+<sourceDDLFile>schema_test.sql</sourceDDLFile>
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:04:57 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel</ownerDesignName>
+<source>CREATE OR REPLACE PROCEDURE  DELETE_APPROV_GRANT_RES &lt;br/&gt;(&lt;br/&gt;  agreement_id_param NPM_agreements.agreement_id%TYPE&lt;br/&gt;)&lt;br/&gt;AS&lt;br/&gt;BEGIN&lt;br/&gt;  delete from NPM_agree_app where APPROVAL_ID = 1 AND AGREEMENT_ID = agreement_id_param;&lt;br/&gt;  DELETE FROM NPM_agree_app WHERE APPROVAL_ID = 18 AND AGREEMENT_ID = agreement_id_param;&lt;br/&gt;END;</source>
+<body>CREATE OR REPLACE PROCEDURE  DELETE_APPROV_GRANT_RES &lt;br/&gt;(&lt;br/&gt;  agreement_id_param NPM_agreements.agreement_id%TYPE&lt;br/&gt;)&lt;br/&gt;AS&lt;br/&gt;BEGIN&lt;br/&gt;  delete from NPM_agree_app where APPROVAL_ID = 1 AND AGREEMENT_ID = agreement_id_param;&lt;br/&gt;  DELETE FROM NPM_agree_app WHERE APPROVAL_ID = 18 AND AGREEMENT_ID = agreement_id_param;&lt;br/&gt;END;</body>
+</StoredProcedureOraclev10g>

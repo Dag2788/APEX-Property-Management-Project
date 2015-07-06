@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<StoredProcedureOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.StoredProcedureOraclev10g" name="DELETE_APPROV_FOREIGN_GOV" directorySegmentName="seg_0" id="C3A86A0D-96E5-8D65-FDD5-F510E005635D">
+<sourceDDLFile>schema_test.sql</sourceDDLFile>
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:04:57 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel</ownerDesignName>
+<source>CREATE OR REPLACE PROCEDURE  DELETE_APPROV_FOREIGN_GOV &lt;br/&gt;(&lt;br/&gt;  agreement_id_param NPM_agreements.agreement_id%TYPE&lt;br/&gt;)&lt;br/&gt;AS&lt;br/&gt;BEGIN&lt;br/&gt;  delete from NPM_agree_app where APPROVAL_ID = 1 AND AGREEMENT_ID = agreement_id_param;&lt;br/&gt;  delete from NPM_agree_app where APPROVAL_ID = 2 AND AGREEMENT_ID = agreement_id_param;&lt;br/&gt;  delete from NPM_agree_app where APPROVAL_ID = 3 AND AGREEMENT_ID = agreement_id_param;&lt;br/&gt;  DELETE FROM NPM_agree_app WHERE APPROVAL_ID = 18 AND AGREEMENT_ID = agreement_id_param;&lt;br/&gt;END;</source>
+<body>CREATE OR REPLACE PROCEDURE  DELETE_APPROV_FOREIGN_GOV &lt;br/&gt;(&lt;br/&gt;  agreement_id_param NPM_agreements.agreement_id%TYPE&lt;br/&gt;)&lt;br/&gt;AS&lt;br/&gt;BEGIN&lt;br/&gt;  delete from NPM_agree_app where APPROVAL_ID = 1 AND AGREEMENT_ID = agreement_id_param;&lt;br/&gt;  delete from NPM_agree_app where APPROVAL_ID = 2 AND AGREEMENT_ID = agreement_id_param;&lt;br/&gt;  delete from NPM_agree_app where APPROVAL_ID = 3 AND AGREEMENT_ID = agreement_id_param;&lt;br/&gt;  DELETE FROM NPM_agree_app WHERE APPROVAL_ID = 18 AND AGREEMENT_ID = agreement_id_param;&lt;br/&gt;END;</body>
+</StoredProcedureOraclev10g>
