@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="DEMO_ORDER_ITEMS_AIUD_TOTAL" directorySegmentName="seg_0" id="BB2F09EB-7AF2-FAE5-0AB2-E2EC35B48306">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:05:16 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+<triggerTime>AFTER</triggerTime>
+</TriggerOraclev10g>

@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<EntityView class="oracle.dbtools.crest.model.design.logical.EntityView" directorySegmentName="seg_0" id="DD9D0A56-E424-0B94-5D0A-D4130CBF5714" name="NPM PHY UNIT">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:09:13 UTC</createdTime>
+<generatorID>76595224-E8B8-393D-7CF7-ECFBF86E4A9B</generatorID>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+<engineerTo>
+<item key="9C5C99D8-B214-D89C-9355-BBEECF223389" value="true"/>
+<item key="CD3D3A6E-066C-F12A-1649-FB842AE652B6" value="true"/>
+</engineerTo>
+<userDefined>true</userDefined>
+<userDefinedSQL>SELECT PROPERTY_ID, PROPERTY_TYPE, PHY_UNIT_NAME, BUILDING_ID, FLOOR_ID, PROPERTY_ID1 FROM NPM_property where property_type = &apos;Physical Unit&apos;</userDefinedSQL>
+<validSQL>false</validSQL>
+<viewType>EntityView</viewType>
+<usedContainers>
+<container alias="NPM_property" containerID="20B0458B-9B0A-2F5F-DF42-86FD15E18D0C"/>
+</usedContainers>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="PROPERTY_ID" id="2F9E4FC5-BB8F-FD4E-F48F-98BC7601963E">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:09:13 UTC</createdTime>
+<generatorID>69C00188-3C1A-ED20-83ED-3BD945D38EF7</generatorID>
+<ownerDesignName>nimblepm_datamodel</ownerDesignName>
+<engineerTo>
+<item key="9C5C99D8-B214-D89C-9355-BBEECF223389" value="true"/>
+<item key="CD3D3A6E-066C-F12A-1649-FB842AE652B6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<alias>PROPERTY_ID</alias>
+<dataType>NUMBER (*,0)</dataType>
+<expression>PROPERTY_ID</expression>
+<reference>false</reference>
+<referencedColumn>5E2F0D1D-0967-6232-A69B-007B5A608A98</referencedColumn>
+<table>20B0458B-9B0A-2F5F-DF42-86FD15E18D0C</table>
+<viewID>DD9D0A56-E424-0B94-5D0A-D4130CBF5714</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="PROPERTY_TYPE" id="FAF7F8F1-86F3-B07A-B162-DCBD875DDA10">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:09:13 UTC</createdTime>
+<generatorID>5E1637DF-DACA-765F-73E8-BAE2270A7F82</generatorID>
+<ownerDesignName>nimblepm_datamodel</ownerDesignName>
+<engineerTo>
+<item key="9C5C99D8-B214-D89C-9355-BBEECF223389" value="true"/>
+<item key="CD3D3A6E-066C-F12A-1649-FB842AE652B6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<alias>PROPERTY_TYPE</alias>
+<dataType>VARCHAR2 (255)</dataType>
+<expression>PROPERTY_TYPE</expression>
+<reference>false</reference>
+<referencedColumn>C9261EA9-D68B-56CC-D64D-01BFB5491FC5</referencedColumn>
+<table>20B0458B-9B0A-2F5F-DF42-86FD15E18D0C</table>
+<viewID>DD9D0A56-E424-0B94-5D0A-D4130CBF5714</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="PHY_UNIT_NAME" id="37DC7F4E-32CD-A7DE-A934-FA6AF3AEDCE7">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:09:13 UTC</createdTime>
+<generatorID>DB9146B2-32D5-F3E7-18FA-E7E78C464568</generatorID>
+<ownerDesignName>nimblepm_datamodel</ownerDesignName>
+<engineerTo>
+<item key="9C5C99D8-B214-D89C-9355-BBEECF223389" value="true"/>
+<item key="CD3D3A6E-066C-F12A-1649-FB842AE652B6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<alias>PHY_UNIT_NAME</alias>
+<dataType>VARCHAR2 (255)</dataType>
+<expression>PHY_UNIT_NAME</expression>
+<reference>false</reference>
+<referencedColumn>4157068F-FC97-D07C-A113-4DCB35D17E37</referencedColumn>
+<table>20B0458B-9B0A-2F5F-DF42-86FD15E18D0C</table>
+<viewID>DD9D0A56-E424-0B94-5D0A-D4130CBF5714</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="BUILDING ID" id="92014DEF-361D-086F-1B65-D672E528A203">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:09:13 UTC</createdTime>
+<generatorID>DC318214-2A7C-A15A-3CE1-EBF67D71012D</generatorID>
+<ownerDesignName>nimblepm_datamodel</ownerDesignName>
+<engineerTo>
+<item key="9C5C99D8-B214-D89C-9355-BBEECF223389" value="true"/>
+<item key="CD3D3A6E-066C-F12A-1649-FB842AE652B6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<alias>BUILDING_ID</alias>
+<dataType>NUMBER (*,0)</dataType>
+<expression>BUILDING_ID</expression>
+<reference>false</reference>
+<referencedColumn>71F39636-CCDE-3301-C819-17D1F17432F9</referencedColumn>
+<table>20B0458B-9B0A-2F5F-DF42-86FD15E18D0C</table>
+<viewID>DD9D0A56-E424-0B94-5D0A-D4130CBF5714</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="FLOOR ID" id="C34832A3-B2F1-8258-E10B-373B76114E00">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:09:13 UTC</createdTime>
+<generatorID>7A90F881-2FC6-438D-2762-C2D82D52F8B8</generatorID>
+<ownerDesignName>nimblepm_datamodel</ownerDesignName>
+<engineerTo>
+<item key="9C5C99D8-B214-D89C-9355-BBEECF223389" value="true"/>
+<item key="CD3D3A6E-066C-F12A-1649-FB842AE652B6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<alias>FLOOR_ID</alias>
+<dataType>NUMBER (*,0)</dataType>
+<expression>FLOOR_ID</expression>
+<reference>false</reference>
+<referencedColumn>E9529FEC-A1EB-5A20-2F62-DF1704C42696</referencedColumn>
+<table>20B0458B-9B0A-2F5F-DF42-86FD15E18D0C</table>
+<viewID>DD9D0A56-E424-0B94-5D0A-D4130CBF5714</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="PROPERTY ID1" id="AFE48A9D-A735-A462-5AE1-A4F54A656010">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:09:13 UTC</createdTime>
+<generatorID>D68D3EE8-BB2B-0D78-4DC9-4ED7C6D14A4E</generatorID>
+<ownerDesignName>nimblepm_datamodel</ownerDesignName>
+<engineerTo>
+<item key="9C5C99D8-B214-D89C-9355-BBEECF223389" value="true"/>
+<item key="CD3D3A6E-066C-F12A-1649-FB842AE652B6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<alias>PROPERTY_ID1</alias>
+<dataType>NUMBER (*,0)</dataType>
+<expression>PROPERTY_ID1</expression>
+<reference>false</reference>
+<referencedColumn>D6005E5D-40A7-D12F-252A-07948BBED94D</referencedColumn>
+<table>20B0458B-9B0A-2F5F-DF42-86FD15E18D0C</table>
+<viewID>DD9D0A56-E424-0B94-5D0A-D4130CBF5714</viewID>
+</viewElement>
+</viewElements>
+</EntityView>

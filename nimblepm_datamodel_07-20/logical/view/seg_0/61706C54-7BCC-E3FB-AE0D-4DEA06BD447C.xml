@@ -1,0 +1,236 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<EntityView class="oracle.dbtools.crest.model.design.logical.EntityView" directorySegmentName="seg_0" id="61706C54-7BCC-E3FB-AE0D-4DEA06BD447C" name="NPM LOG UNIT">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:09:13 UTC</createdTime>
+<generatorID>F107C82F-2F4F-F392-3A80-863A9142CF98</generatorID>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+<engineerTo>
+<item key="9C5C99D8-B214-D89C-9355-BBEECF223389" value="true"/>
+<item key="CD3D3A6E-066C-F12A-1649-FB842AE652B6" value="true"/>
+</engineerTo>
+<userDefined>true</userDefined>
+<userDefinedSQL>SELECT PROPERTY_ID, PROPERTY_TYPE, LEASE_TYPE, LOG_UNIT_NAME, PHY_UNIT_NAME, PHY_ROOM_NAME, START_DATE, END_DATE, BUILDING_ID, FLOOR_ID, PROPERTY_ID1, AGREEMENT_ID FROM NPM_property where property_type = &apos;Logical Unit&apos;</userDefinedSQL>
+<validSQL>false</validSQL>
+<viewType>EntityView</viewType>
+<usedContainers>
+<container alias="NPM_property" containerID="20B0458B-9B0A-2F5F-DF42-86FD15E18D0C"/>
+</usedContainers>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="PROPERTY_ID" id="AAC801E1-C939-6842-F38E-72E508900A36">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:09:13 UTC</createdTime>
+<generatorID>41F3A4A7-6025-EA70-6F95-030012AB93C8</generatorID>
+<ownerDesignName>nimblepm_datamodel</ownerDesignName>
+<engineerTo>
+<item key="9C5C99D8-B214-D89C-9355-BBEECF223389" value="true"/>
+<item key="CD3D3A6E-066C-F12A-1649-FB842AE652B6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<alias>PROPERTY_ID</alias>
+<dataType>NUMBER (*,0)</dataType>
+<expression>PROPERTY_ID</expression>
+<reference>false</reference>
+<referencedColumn>5E2F0D1D-0967-6232-A69B-007B5A608A98</referencedColumn>
+<table>20B0458B-9B0A-2F5F-DF42-86FD15E18D0C</table>
+<viewID>61706C54-7BCC-E3FB-AE0D-4DEA06BD447C</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="PROPERTY_TYPE" id="DE3E142A-F1C3-745B-D9AF-A641E5BD09CB">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:09:13 UTC</createdTime>
+<generatorID>DA41E078-708D-B0FC-701F-C983091DEAB8</generatorID>
+<ownerDesignName>nimblepm_datamodel</ownerDesignName>
+<engineerTo>
+<item key="9C5C99D8-B214-D89C-9355-BBEECF223389" value="true"/>
+<item key="CD3D3A6E-066C-F12A-1649-FB842AE652B6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<alias>PROPERTY_TYPE</alias>
+<dataType>VARCHAR2 (255)</dataType>
+<expression>PROPERTY_TYPE</expression>
+<reference>false</reference>
+<referencedColumn>C9261EA9-D68B-56CC-D64D-01BFB5491FC5</referencedColumn>
+<table>20B0458B-9B0A-2F5F-DF42-86FD15E18D0C</table>
+<viewID>61706C54-7BCC-E3FB-AE0D-4DEA06BD447C</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="LEASE_TYPE" id="ABCD348E-96E2-858E-DD2C-22B8029434A0">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:09:13 UTC</createdTime>
+<generatorID>16235732-177A-4FA3-2D67-994F4AC42346</generatorID>
+<ownerDesignName>nimblepm_datamodel</ownerDesignName>
+<engineerTo>
+<item key="9C5C99D8-B214-D89C-9355-BBEECF223389" value="true"/>
+<item key="CD3D3A6E-066C-F12A-1649-FB842AE652B6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<alias>LEASE_TYPE</alias>
+<dataType>VARCHAR2 (255)</dataType>
+<expression>LEASE_TYPE</expression>
+<reference>false</reference>
+<referencedColumn>0A2D9C31-AC03-6FC2-B7E9-B520A787FBFD</referencedColumn>
+<table>20B0458B-9B0A-2F5F-DF42-86FD15E18D0C</table>
+<viewID>61706C54-7BCC-E3FB-AE0D-4DEA06BD447C</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="LOG_UNIT_NAME" id="2D5D44FC-A306-B9BC-0C81-F711EE20AFAA">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:09:13 UTC</createdTime>
+<generatorID>CB8F5A84-7368-F5DB-6B12-C716A7CDF6D2</generatorID>
+<ownerDesignName>nimblepm_datamodel</ownerDesignName>
+<engineerTo>
+<item key="9C5C99D8-B214-D89C-9355-BBEECF223389" value="true"/>
+<item key="CD3D3A6E-066C-F12A-1649-FB842AE652B6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<alias>LOG_UNIT_NAME</alias>
+<dataType>VARCHAR2 (255)</dataType>
+<expression>LOG_UNIT_NAME</expression>
+<reference>false</reference>
+<referencedColumn>438F1805-3D26-2F33-71AA-7F6913A8CA7A</referencedColumn>
+<table>20B0458B-9B0A-2F5F-DF42-86FD15E18D0C</table>
+<viewID>61706C54-7BCC-E3FB-AE0D-4DEA06BD447C</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="PHY_UNIT_NAME" id="1466141C-E3AB-5372-7792-D1B64533D41B">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:09:13 UTC</createdTime>
+<generatorID>6A49BD28-930A-50D3-3148-D7084F06F8BE</generatorID>
+<ownerDesignName>nimblepm_datamodel</ownerDesignName>
+<engineerTo>
+<item key="9C5C99D8-B214-D89C-9355-BBEECF223389" value="true"/>
+<item key="CD3D3A6E-066C-F12A-1649-FB842AE652B6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<alias>PHY_UNIT_NAME</alias>
+<dataType>VARCHAR2 (255)</dataType>
+<expression>PHY_UNIT_NAME</expression>
+<reference>false</reference>
+<referencedColumn>4157068F-FC97-D07C-A113-4DCB35D17E37</referencedColumn>
+<table>20B0458B-9B0A-2F5F-DF42-86FD15E18D0C</table>
+<viewID>61706C54-7BCC-E3FB-AE0D-4DEA06BD447C</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="PHY_ROOM_NAME" id="92C2286E-3F30-245D-F1B3-C081D10FB9D8">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:09:13 UTC</createdTime>
+<generatorID>D7952A48-5A87-BB89-BA90-E983FB175C43</generatorID>
+<ownerDesignName>nimblepm_datamodel</ownerDesignName>
+<engineerTo>
+<item key="9C5C99D8-B214-D89C-9355-BBEECF223389" value="true"/>
+<item key="CD3D3A6E-066C-F12A-1649-FB842AE652B6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<alias>PHY_ROOM_NAME</alias>
+<dataType>VARCHAR2 (255)</dataType>
+<expression>PHY_ROOM_NAME</expression>
+<reference>false</reference>
+<referencedColumn>8C81A8E5-BDC6-28A6-BE97-B1B90F9ED919</referencedColumn>
+<table>20B0458B-9B0A-2F5F-DF42-86FD15E18D0C</table>
+<viewID>61706C54-7BCC-E3FB-AE0D-4DEA06BD447C</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="START_DATE" id="33DE92FE-F586-D4B0-439F-280D36197BCD">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:09:13 UTC</createdTime>
+<generatorID>81F90A28-D611-0B8D-8C40-613FCC563179</generatorID>
+<ownerDesignName>nimblepm_datamodel</ownerDesignName>
+<engineerTo>
+<item key="9C5C99D8-B214-D89C-9355-BBEECF223389" value="true"/>
+<item key="CD3D3A6E-066C-F12A-1649-FB842AE652B6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<alias>START_DATE</alias>
+<dataType>DATE</dataType>
+<expression>START_DATE</expression>
+<reference>false</reference>
+<referencedColumn>17E34EDE-1C8A-F154-5FC9-A3FB4FF3A929</referencedColumn>
+<table>20B0458B-9B0A-2F5F-DF42-86FD15E18D0C</table>
+<viewID>61706C54-7BCC-E3FB-AE0D-4DEA06BD447C</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="END_DATE" id="72472C06-824F-005B-CA7A-3D2D6A9CDFDF">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:09:13 UTC</createdTime>
+<generatorID>9E756603-5E49-E60A-9A20-0AD9A480A555</generatorID>
+<ownerDesignName>nimblepm_datamodel</ownerDesignName>
+<engineerTo>
+<item key="9C5C99D8-B214-D89C-9355-BBEECF223389" value="true"/>
+<item key="CD3D3A6E-066C-F12A-1649-FB842AE652B6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<alias>END_DATE</alias>
+<dataType>DATE</dataType>
+<expression>END_DATE</expression>
+<reference>false</reference>
+<referencedColumn>1081FB0C-92BF-4314-0FD7-113109C7AB14</referencedColumn>
+<table>20B0458B-9B0A-2F5F-DF42-86FD15E18D0C</table>
+<viewID>61706C54-7BCC-E3FB-AE0D-4DEA06BD447C</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="BUILDING ID" id="2E94CA4D-89E4-319C-63DE-AF5DD34D63C9">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:09:13 UTC</createdTime>
+<generatorID>A6DF5C67-0F20-35C9-8800-AF3AD05FC29A</generatorID>
+<ownerDesignName>nimblepm_datamodel</ownerDesignName>
+<engineerTo>
+<item key="9C5C99D8-B214-D89C-9355-BBEECF223389" value="true"/>
+<item key="CD3D3A6E-066C-F12A-1649-FB842AE652B6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<alias>BUILDING_ID</alias>
+<dataType>NUMBER (*,0)</dataType>
+<expression>BUILDING_ID</expression>
+<reference>false</reference>
+<referencedColumn>71F39636-CCDE-3301-C819-17D1F17432F9</referencedColumn>
+<table>20B0458B-9B0A-2F5F-DF42-86FD15E18D0C</table>
+<viewID>61706C54-7BCC-E3FB-AE0D-4DEA06BD447C</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="FLOOR ID" id="79422F27-2F40-645C-31C4-0BC4CAFFED7F">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:09:13 UTC</createdTime>
+<generatorID>A7CF2285-EB45-ACB9-985D-1768EF17C9ED</generatorID>
+<ownerDesignName>nimblepm_datamodel</ownerDesignName>
+<engineerTo>
+<item key="9C5C99D8-B214-D89C-9355-BBEECF223389" value="true"/>
+<item key="CD3D3A6E-066C-F12A-1649-FB842AE652B6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<alias>FLOOR_ID</alias>
+<dataType>NUMBER (*,0)</dataType>
+<expression>FLOOR_ID</expression>
+<reference>false</reference>
+<referencedColumn>E9529FEC-A1EB-5A20-2F62-DF1704C42696</referencedColumn>
+<table>20B0458B-9B0A-2F5F-DF42-86FD15E18D0C</table>
+<viewID>61706C54-7BCC-E3FB-AE0D-4DEA06BD447C</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="PROPERTY ID1" id="5E471BD7-51C5-6E01-5961-B03E59E808BC">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:09:13 UTC</createdTime>
+<generatorID>71967402-8E76-C96C-D2D1-9EB5276DF85C</generatorID>
+<ownerDesignName>nimblepm_datamodel</ownerDesignName>
+<engineerTo>
+<item key="9C5C99D8-B214-D89C-9355-BBEECF223389" value="true"/>
+<item key="CD3D3A6E-066C-F12A-1649-FB842AE652B6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<alias>PROPERTY_ID1</alias>
+<dataType>NUMBER (*,0)</dataType>
+<expression>PROPERTY_ID1</expression>
+<reference>false</reference>
+<referencedColumn>D6005E5D-40A7-D12F-252A-07948BBED94D</referencedColumn>
+<table>20B0458B-9B0A-2F5F-DF42-86FD15E18D0C</table>
+<viewID>61706C54-7BCC-E3FB-AE0D-4DEA06BD447C</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="AGREEMENT ID" id="251D15F9-19AC-72FE-80A6-C5F56688619B">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:09:13 UTC</createdTime>
+<generatorID>69D50767-813F-2A1E-46EF-81C3EB33EB8F</generatorID>
+<ownerDesignName>nimblepm_datamodel</ownerDesignName>
+<engineerTo>
+<item key="9C5C99D8-B214-D89C-9355-BBEECF223389" value="true"/>
+<item key="CD3D3A6E-066C-F12A-1649-FB842AE652B6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<alias>AGREEMENT_ID</alias>
+<dataType>NUMBER (*,0)</dataType>
+<expression>AGREEMENT_ID</expression>
+<reference>false</reference>
+<referencedColumn>D242AA53-AD80-535E-83A0-A34863CBB3E3</referencedColumn>
+<table>20B0458B-9B0A-2F5F-DF42-86FD15E18D0C</table>
+<viewID>61706C54-7BCC-E3FB-AE0D-4DEA06BD447C</viewID>
+</viewElement>
+</viewElements>
+</EntityView>

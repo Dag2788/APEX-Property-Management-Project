@@ -1,0 +1,246 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1E7FA020-5E48-40E5-033E-B88C398DFE59" name="NPM_DOCUMENT">
+<sourceDDLFile>schema_test.sql</sourceDDLFile>
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:05:15 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+<importedID>88D3B3CC-68A0-892D-FB15-2EBBAD7DD1A5</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DOCUMENT_ID" id="69F6E24A-5BF7-9603-EA38-0D0BD25D0DCB">
+<sourceDDLFile>schema_test.sql</sourceDDLFile>
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:05:15 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+<importedID>69660CA0-7C01-73DB-6028-43224B07E369</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>6E70DE84-56EA-FD55-C31F-555863DF8645</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FILENAME" id="47797B3D-BC53-CF55-151B-4C45586EB8C2">
+<sourceDDLFile>schema_test.sql</sourceDDLFile>
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:05:15 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+<importedID>8CD07A2C-A1E7-3666-3B71-89C4107ED6CA</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C37064F9-CE09-5BD2-70F7-FBEA763F3808</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FILE_MIMETYPE" id="B0E99A53-F8BF-A847-CF9E-E5C26835E4B3">
+<sourceDDLFile>schema_test.sql</sourceDDLFile>
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:05:15 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+<importedID>FB8C8450-7CC1-0C45-171F-C23AA4E44897</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BEB34076-7470-FDF8-F8B3-A5F0D0499DC5</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FILE_CHARSET" id="1C998FFA-5DD2-7295-2D4D-6E0D0CFE0F6C">
+<sourceDDLFile>schema_test.sql</sourceDDLFile>
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:05:15 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+<importedID>94808C96-BAC3-6BAB-10B0-D4A47E811E2C</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BEB34076-7470-FDF8-F8B3-A5F0D0499DC5</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FILE_DATA" id="1A1AFCC6-5685-5701-D26C-9D52FE85ECD3">
+<sourceDDLFile>schema_test.sql</sourceDDLFile>
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:05:15 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+<importedID>3BB747C2-5B2E-B0CE-3081-B89B8D01B793</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<domain>46AD4658-8E6A-1A57-B012-F74E3C850FB1</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FILE_COMMENTS" id="21168E88-E261-6888-1C0E-3ED02D79B0DA">
+<sourceDDLFile>schema_test.sql</sourceDDLFile>
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:05:15 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+<importedID>F52DD037-14F4-3B38-8C63-34D9B0157AAD</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C37064F9-CE09-5BD2-70F7-FBEA763F3808</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TAGS" id="9CA0072B-026A-E54D-945B-E9C7B342392E">
+<sourceDDLFile>schema_test.sql</sourceDDLFile>
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:05:15 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+<importedID>E0321F0C-9DD5-6EAC-8320-E87CDB42B440</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C37064F9-CE09-5BD2-70F7-FBEA763F3808</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NPM_EMAIL_EMAIL_ID" id="1E616E49-FB2F-CE72-7701-E79ED07868DE">
+<sourceDDLFile>schema_test.sql</sourceDDLFile>
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:05:15 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+<importedID>4AD8D2DE-6920-C134-D91B-DD3851F6EB1B</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>6E70DE84-56EA-FD55-C31F-555863DF8645</domain>
+<delegate>774E07CE-74D3-A81A-6965-B67F5FD6276F</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1C59B435-03AD-05D8-4C79-5D39EA3E621A" referredColumn="774E07CE-74D3-A81A-6965-B67F5FD6276F"/>
+</associations>
+</Column>
+<Column name="NPM_AGREEMENTS_AGREEMENT_ID" id="5669276F-60C1-9899-DA74-087AA6C04E9E">
+<sourceDDLFile>schema_test.sql</sourceDDLFile>
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:05:15 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+<importedID>2A23EC37-15FB-D42E-803B-CFFADA5054F2</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>6E70DE84-56EA-FD55-C31F-555863DF8645</domain>
+<delegate>8BADAEAB-E370-6632-2D8C-AF2AC56DC07B</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F0E908FF-9235-7E8D-7C8A-89C2361355A1" referredColumn="8BADAEAB-E370-6632-2D8C-AF2AC56DC07B"/>
+</associations>
+</Column>
+<Column name="FILE_SIZE" id="96BBCECD-B4C1-9FAF-BFAC-7E4BE5CE5552">
+<sourceDDLFile>schema_test.sql</sourceDDLFile>
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:05:15 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+<importedID>511FEF7C-5809-E622-B261-B5CBB8348234</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>6E70DE84-56EA-FD55-C31F-555863DF8645</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AGREE_APP_ID" id="3E8DC455-8AE6-9A14-AF42-117D452C8597">
+<sourceDDLFile>schema_test.sql</sourceDDLFile>
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:05:15 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+<importedID>147AF9A1-7658-110A-AAE8-8A9F934D0484</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>6E70DE84-56EA-FD55-C31F-555863DF8645</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATED" id="0DD3CCE2-52B1-0456-D1D3-677010933012">
+<sourceDDLFile>schema_test.sql</sourceDDLFile>
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:05:15 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+<importedID>9CEA6A38-C993-CD51-24C5-421DF986B9D2</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>C088B010-3073-E8C9-16B8-732C8FDC687F</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATED_BY" id="3C127079-6584-D127-3CCE-4B3909C07E18">
+<sourceDDLFile>schema_test.sql</sourceDDLFile>
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:05:15 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+<importedID>CD56A4FC-11C3-E67B-CF6D-172AB22A9EF9</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A66AF118-C268-14CE-8F42-978DAE668674</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ROW_VERSION_NUMBER" id="0904FFAD-5D10-1D37-34B3-E9A19626E12D">
+<sourceDDLFile>schema_test.sql</sourceDDLFile>
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:05:15 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+<importedID>662D375F-DD1A-DA79-EF91-F24F1A439A59</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>6E70DE84-56EA-FD55-C31F-555863DF8645</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UPDATED" id="B6752F75-1F51-A42F-D61A-DC063D2CD5DE">
+<sourceDDLFile>schema_test.sql</sourceDDLFile>
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:05:15 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+<importedID>B06E0CF0-286C-530E-C0AF-DD34E8B6D36B</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>C088B010-3073-E8C9-16B8-732C8FDC687F</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UPDATED_BY" id="78B53284-2FD8-0454-AC88-934510286E31">
+<sourceDDLFile>schema_test.sql</sourceDDLFile>
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:05:15 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+<importedID>79386DC1-3D17-1C07-8FA7-6558C077F99F</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A66AF118-C268-14CE-8F42-978DAE668674</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AEFCE9ED-89AC-AD9C-1FDA-912DF89D9C95" name="NPM_DOCUMENT_PK">
+<sourceDDLFile>schema_test.sql</sourceDDLFile>
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:05:15 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+<importedID>3D3C0023-FCEC-1C9B-DF9F-E91B45413AE6</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="69F6E24A-5BF7-9603-EA38-0D0BD25D0DCB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8A342AC9-77BF-6E2C-FEBE-5D52EF0F6CB4" name="NPM_DOCUMENT_NPM_AGREEMENTS_FK">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:05:15 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5669276F-60C1-9899-DA74-087AA6C04E9E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5B6BD00D-1CF6-EFCE-1D2F-D37D1117CCB2" name="NPM_DOCUMENT_NPM_EMAIL_FK">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:05:15 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1E616E49-FB2F-CE72-7701-E79ED07868DE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
