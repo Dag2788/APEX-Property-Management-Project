@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="NPM_BUILDING_PK_TRIG" directorySegmentName="seg_0" id="2BE7A831-3A7A-EC1A-001A-52DE780BADB1">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:05:16 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+<triggerTime>BEFORE</triggerTime>
+</TriggerOraclev10g>

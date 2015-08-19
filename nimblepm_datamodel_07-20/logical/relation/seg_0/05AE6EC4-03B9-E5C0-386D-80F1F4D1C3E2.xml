@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="person_property" directorySegmentName="seg_0" id="05AE6EC4-03B9-E5C0-386D-80F1F4D1C3E2">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-16 20:44:23 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+<engineerTo>
+<item key="9C5C99D8-B214-D89C-9355-BBEECF223389" value="true"/>
+<item key="CD3D3A6E-066C-F12A-1649-FB842AE652B6" value="true"/>
+</engineerTo>
+<sourcePk>97A69DD1-77A8-5626-A261-FD26DBD4DA87</sourcePk>
+<targetPk>AE58D386-175B-D5A9-4B0A-BDE42BE209F2</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>78C81166-0010-B1C8-52C0-C9585978A3C6</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>20B0458B-9B0A-2F5F-DF42-86FD15E18D0C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

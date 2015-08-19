@@ -1,0 +1,153 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="NPM_TICKLERS" directorySegmentName="seg_0" id="A229E465-4415-CEAB-A4CE-399329FCF9C4">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:05:15 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="DEPARTMENT_ID_FK_22" id="0A0DF508-704C-0185-3A21-7C9AF052983E">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:05:15 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+<logging></logging>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="VENDOR_ID_FK_28" id="1B0324B8-C865-A89F-4E77-E107D62F1E17">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:05:15 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+<logging></logging>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="AGREE_APP_ID_FK_17" id="71916FF8-2480-B9AE-F424-79770340D6B4">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:05:15 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+<logging></logging>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="AGREEMENT_ID_FK_26" id="DACEBF31-FD07-F902-B014-C186E60DFE06">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:05:15 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+<logging></logging>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="CONTACT_ID_FK_19" id="F476F93B-11AF-562A-A3B6-3FD9D065FEA8">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:05:15 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+<logging></logging>
+</IndexProxy>
+</indexProxies>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="NPM_DEPARTMENT_DEPARTMENT_ID" id="05135FC0-4FC5-6A37-E212-691A52CC7C74">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:05:15 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CREATED" id="0CF87743-A43E-2D9C-FA47-EDF5F7E0BFC4">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:05:15 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="END_DATE" id="10A716D2-8360-F1B1-3B8A-E5F6F4985C06">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:05:15 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TICKLER_ID" id="125A8C63-D4B7-9B75-8449-266629AF8F65">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:05:15 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DESCRIPTION" id="1387D863-A448-8D11-8418-B22F283D579D">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:05:15 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="UPDATED_BY" id="33B7BC84-5C83-420B-7FF0-DD7416F21631">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:05:15 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VISIBILITY_PUBLIC" id="430BFB86-6920-67B4-0952-D704B6A31787">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:05:15 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CREATED_BY" id="43313E06-09B8-D6D1-1F67-B99E36D34D6B">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:05:15 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ROW_VERSION_NUMBER" id="45E99A78-FACE-D553-52ED-B3325B8F5205">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:05:15 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="UPDATED" id="607978EC-5258-A1CD-E07A-C8D3F91B08BF">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:05:15 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NPM_AGREE_APP_AGREE_APP_ID" id="73D08FAA-821D-D845-29CA-7F9BC28111E6">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:05:15 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NPM_VENDOR_VENDOR_ID" id="7706838E-AA48-1E47-F027-6B9AC57DB0B5">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:05:15 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NPM_CONTACT_CONTACT_ID" id="B6F0164C-AF04-7E76-21D9-92CB92A86E73">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:05:15 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NPM_AGREEMENTS_AGREEMENT_ID" id="CD408686-4A78-E386-E9DE-4AED328D3CC5">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:05:15 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="NPM_TICKLERS_NPM_AGREEMENTS_FK" id="2B07665B-E6E4-FD11-ED18-55FC6B9F28B1">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:05:15 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="NPM_TICKLERS_NPM_DEPARTMENT_FK" id="9873C542-86B0-004E-7B3B-FDD642650196">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:05:15 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="NPM_TICKLERS_NPM_CONTACT_FK" id="AB93A03D-A58D-FA9D-65DB-B966CAECFCD0">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:05:15 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="NPM_TICKLERS_NPM_VENDOR_FK" id="B350C2F9-2077-F6A9-25D5-DCC57E942DF5">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:05:15 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="NPM_TICKLERS_NPM_AGREE_APP_FK" id="DAC9E41E-14F6-C4A3-6231-F6C3A597971A">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:05:15 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="NPM_TICKLERS_PK" id="4809D5FB-3853-09F0-67ED-2517C6CF8F8E">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:05:15 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+<logging></logging>
+<segment>3BB7869C-9A3F-44DF-0918-75642E30C39F</segment>
+<indexSegment>3BB7869C-9A3F-44DF-0918-75642E30C39F</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

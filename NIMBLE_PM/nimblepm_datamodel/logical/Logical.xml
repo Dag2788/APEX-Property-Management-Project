@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="D5FA5546-6248-C6C2-30E1-D52567C3C069" mainViewID="794AF8F5-9D0F-B651-95E5-6A612BF64264">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:04:03 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="UTBC_DEPTCONTACT_CONTRACTV1" directorySegmentName="seg_0" id="A42A1597-2616-D357-F055-74DBD151E6D9">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:09:13 UTC</createdTime>
+<generatorID>B8B11CA3-1FBE-CB7C-068D-2886601AC5D7</generatorID>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+<engineerTo>
+<item key="9C5C99D8-B214-D89C-9355-BBEECF223389" value="true"/>
+<item key="CD3D3A6E-066C-F12A-1649-FB842AE652B6" value="true"/>
+</engineerTo>
+<sourcePk>C3CE4678-4651-F747-FBF8-3E1F3348108E</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>079801FD-DEFE-D086-762A-E8E60847310E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E8CBD037-B137-9E34-A522-D9D77AA04C6C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="UTBC_TICKLER_CONTRACT" directorySegmentName="seg_0" id="1EFB9638-F3EB-D1CC-6CE1-FAE21F470758">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:09:13 UTC</createdTime>
+<generatorID>D1847F06-6F31-D27D-EF08-5C0A948DF4E1</generatorID>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+<engineerTo>
+<item key="9C5C99D8-B214-D89C-9355-BBEECF223389" value="true"/>
+<item key="CD3D3A6E-066C-F12A-1649-FB842AE652B6" value="true"/>
+</engineerTo>
+<sourcePk>10317EAD-481F-6370-01F0-7725D83960D9</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E8CBD037-B137-9E34-A522-D9D77AA04C6C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F9C959C6-3C95-C496-7B31-94618ACF48E0</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
