@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="APEX$_WS_TAGS_T1" directorySegmentName="seg_0" id="0CB9D35E-CBC5-E92D-7410-B39B54FD9B95">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:05:16 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+<triggerTime>BEFORE</triggerTime>
+</TriggerOraclev10g>

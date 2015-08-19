@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SegmentOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.SegmentOraclev10g" name="Storage2" directorySegmentName="seg_0" id="3BB7869C-9A3F-44DF-0918-75642E30C39F">
+<sourceDDLFile>schema_test.sql</sourceDDLFile>
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:04:57 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+</SegmentOraclev10g>

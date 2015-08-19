@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="079801FD-DEFE-D086-762A-E8E60847310E" name="NPM CONTACT" seqName="seg_0"/>
+   <object objectType="Entity" objectID="1F2FEC07-6137-0986-E9CA-20D992761648" name="NPM DEPARTMENT" seqName="seg_0"/>
+   <object objectType="Entity" objectID="20B0458B-9B0A-2F5F-DF42-86FD15E18D0C" name="NPM PROPERTY" seqName="seg_0"/>
+   <object objectType="Entity" objectID="2D530995-D759-02CA-08A6-00993E32097C" name="NPM BORDATES" seqName="seg_0"/>
+   <object objectType="Entity" objectID="3B4606C9-FA50-5E75-99C9-B23845427434" name="NPM STATE" seqName="seg_0"/>
+   <object objectType="Entity" objectID="53EC5C94-AD27-7BF8-7B35-F74283662072" name="NPM VENDOR" seqName="seg_0"/>
+   <object objectType="Entity" objectID="58CC4A16-1768-F20A-394F-4EE37A3FFEDE" name="NPM PROP AGREE" seqName="seg_0"/>
+   <object objectType="Entity" objectID="5BE6FB04-CB4D-0218-9F39-8F3736279869" name="NPM BUILDING" seqName="seg_0"/>
+   <object objectType="Entity" objectID="749373AA-D203-9B64-2DE9-61D7251920F4" name="NPM TRIGGERS" seqName="seg_0"/>
+   <object objectType="Entity" objectID="78C81166-0010-B1C8-52C0-C9585978A3C6" name="NPM_PERSON" seqName="seg_0"/>
+   <object objectType="Entity" objectID="ACF9975A-E810-C650-4F0C-99A7D8BA9C60" name="NPM AGREE TRIG" seqName="seg_0"/>
+   <object objectType="Entity" objectID="AE336491-1ADB-B280-5B8A-0F7035B0DFE0" name="NPM APPROVALS" seqName="seg_0"/>
+   <object objectType="Entity" objectID="B2C44C06-1252-B3E3-6384-FD7B0E935BDD" name="NPM AGREE APP" seqName="seg_0"/>
+   <object objectType="Entity" objectID="C52183ED-C4D5-1942-98C0-DB9C295C965F" name="NPM EMAIL" seqName="seg_0"/>
+   <object objectType="Entity" objectID="D3C519B5-B422-9156-9092-6BB155C52B3D" name="NPM DOCUMENT" seqName="seg_0"/>
+   <object objectType="Entity" objectID="E1B8E39A-FEDC-1264-3386-66B35FAB437F" name="NPM FORMER NAME" seqName="seg_0"/>
+   <object objectType="Entity" objectID="E8CBD037-B137-9E34-A522-D9D77AA04C6C" name="NPM AGREEMENTS" seqName="seg_0"/>
+   <object objectType="Entity" objectID="EC49E896-CA48-8BDA-CD51-B9886C308483" name="NPM FLOOR" seqName="seg_0"/>
+   <object objectType="Entity" objectID="F9C959C6-3C95-C496-7B31-94618ACF48E0" name="NPM TICKLERS" seqName="seg_0"/>
+   <object objectType="Relation" objectID="01718B5A-BFBC-5C30-7EB9-53AD73611C08" name="RELATION_37" seqName="seg_0"/>
+   <object objectType="Relation" objectID="05AE6EC4-03B9-E5C0-386D-80F1F4D1C3E2" name="person_property" seqName="seg_0"/>
+   <object objectType="Relation" objectID="07E86AE5-3B8A-0438-2BEA-7DC3C6E89B95" name="UTBC_DEPTCONTACT_CONTRACTV2" seqName="seg_0"/>
+   <object objectType="Relation" objectID="12942F01-918B-D6D4-A5D8-ABB92F812EB8" name="UTBC_DEPARTMENT_TICKLER" seqName="seg_0"/>
+   <object objectType="Relation" objectID="16665294-FB73-E33E-8DCC-B10623FFBBE9" name="B_TO_F_RELATION" seqName="seg_0"/>
+   <object objectType="Relation" objectID="1EFB9638-F3EB-D1CC-6CE1-FAE21F470758" name="UTBC_TICKLER_CONTRACT" seqName="seg_0"/>
+   <object objectType="Relation" objectID="239219BE-3914-D63B-025C-BB809F40813B" name="RELATION_38" seqName="seg_0"/>
+   <object objectType="Relation" objectID="24C0D51E-10CE-01D0-CC10-6BCA3947DADE" name="RELATION_35" seqName="seg_0"/>
+   <object objectType="Relation" objectID="292E0D13-C801-B360-13E1-B8891BF2B01E" name="UTBC_DOCUMENT_TALK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="410A1999-06C5-F68B-FDD5-1DA1750E2480" name="person_building" seqName="seg_0"/>
+   <object objectType="Relation" objectID="45F1338A-9C9B-EDAE-E969-840870EEE00C" name="UTBC_CONTRACT_DOCUMENT" seqName="seg_0"/>
+   <object objectType="Relation" objectID="656FBE50-67FF-B643-3857-55796EAFAA6F" name="F_TO_P_RELATION" seqName="seg_0"/>
+   <object objectType="Relation" objectID="7F092DAE-42F7-9149-0217-3C12DC177368" name="RELATION_32" seqName="seg_0"/>
+   <object objectType="Relation" objectID="7FBA4351-BDF4-24A0-5E0A-772CE3B61FA2" name="RELATION_29" seqName="seg_0"/>
+   <object objectType="Relation" objectID="80ED92B5-7F1F-0276-5547-124AD3F7D9FF" name="UTBC_VENDOR_TICKLER" seqName="seg_0"/>
+   <object objectType="Relation" objectID="8AAD0FB3-13CF-5D15-1F11-FB74D6B9FA26" name="RELATION_25" seqName="seg_0"/>
+   <object objectType="Relation" objectID="90E7137A-DF23-5CC3-6F92-FA512D2E70D2" name="UTBC_DEPARTMENT_CONTRACT" seqName="seg_0"/>
+   <object objectType="Relation" objectID="9DF0A553-D12B-97B8-4F51-36EEF7FA7BFA" name="UTBC_CONTACT_TALK" seqName="seg_0"/>
+   <object objectType="Relation" objectID="A42A1597-2616-D357-F055-74DBD151E6D9" name="UTBC_DEPTCONTACT_CONTRACTV1" seqName="seg_0"/>
+   <object objectType="Relation" objectID="A60AE9A3-5877-DA54-8D96-55155E11A28E" name="RELATION_27" seqName="seg_0"/>
+   <object objectType="Relation" objectID="ADAFEE26-CA36-AA22-163B-ACD8B5F737A5" name="VEN_CUR_NAME" seqName="seg_0"/>
+   <object objectType="Relation" objectID="B23F1D04-04BB-CD65-F74F-820BEB8325E3" name="RELATION_30" seqName="seg_0"/>
+   <object objectType="Relation" objectID="B8F07CA1-EA84-B2C9-5FFD-F9903F519F10" name="RELATION_26" seqName="seg_0"/>
+   <object objectType="Relation" objectID="BC0D949C-48C3-6F34-8000-6483F7848CDC" name="RELATION_20" seqName="seg_0"/>
+   <object objectType="Relation" objectID="C55C43C8-58E8-988E-9E92-EE5FC99BD0CE" name="UTBC_CONTACT_TICKLER" seqName="seg_0"/>
+   <object objectType="Relation" objectID="C8EDDA54-2D78-A9DA-1B5E-3CA3FA3C851A" name="RELATION_22" seqName="seg_0"/>
+   <object objectType="Relation" objectID="CADA2736-F869-1581-AF3E-0A1055602C3F" name="RELATION_16" seqName="seg_0"/>
+   <object objectType="Relation" objectID="CD721AD4-7906-9F61-D5C1-984FF034F6D5" name="B_TO_P_RELATION" seqName="seg_0"/>
+   <object objectType="Relation" objectID="DD93DBDA-249A-C275-CC20-3834A957DBAD" name="RELATION_21" seqName="seg_0"/>
+   <object objectType="Relation" objectID="E0F87E5A-5C7A-9B4F-768D-8A1FC99EBFA7" name="AGREE_TO_PROP" seqName="seg_0"/>
+   <object objectType="Relation" objectID="E16EFF1F-6243-CD99-A316-2326A02998BB" name="UTBC_VENDOR_CONTRACT" seqName="seg_0"/>
+   <object objectType="Relation" objectID="E4EC1CE3-DAC2-8D78-164B-3BD55FB7DC98" name="UTBC_APPROVAL_TICKLER" seqName="seg_0"/>
+   <object objectType="Relation" objectID="EDF2E5D1-29BD-BDF8-1676-52A23CB8A693" name="RELATION_28" seqName="seg_0"/>
+   <object objectType="Relation" objectID="F3FA53D4-AF77-4B43-C3A6-235684FA39F0" name="U_TO_R_RELATION" seqName="seg_0"/>
+   <object objectType="Relation" objectID="FCFB734B-0980-6F24-DD07-479B011707F8" name="RELATION_34" seqName="seg_0"/>
+   <object objectType="View" objectID="61706C54-7BCC-E3FB-AE0D-4DEA06BD447C" name="NPM LOG UNIT" seqName="seg_0"/>
+   <object objectType="View" objectID="DD9D0A56-E424-0B94-5D0A-D4130CBF5714" name="NPM PHY UNIT" seqName="seg_0"/>
+   <object objectType="View" objectID="F770B92A-04DD-C8E8-860D-7BEC60521CA6" name="NPM PHY ROOM" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FunctionOracle class="oracle.dbtools.crest.model.design.storage.oracle.FunctionOracle" name="PARSE_MS_VALUELIST_TO_SQL" directorySegmentName="seg_0" id="566758B1-4246-09B4-861B-948DFEB99036">
+<sourceDDLFile>schema_test.sql</sourceDDLFile>
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:04:57 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+<source>CREATE OR REPLACE FUNCTION  PARSE_MS_VALUELIST_TO_SQL (p_delimited_str_list IN VARCHAR2&lt;br/&gt;,p_value_delimiter IN VARCHAR2 DEFAULT &apos;:&apos;)&lt;br/&gt;RETURN value_list_tt pipelined&lt;br/&gt;IS&lt;br/&gt;l_ret_tab apex_application_global.vc_arr2;&lt;br/&gt;BEGIN&lt;br/&gt;l_ret_tab := apex_util.string_to_table(p_delimited_str_list, p_value_delimiter);&lt;br/&gt;for i in 1..l_ret_tab.COUNT loop&lt;br/&gt;PIPE ROW(value_list_to(l_ret_tab(i)));&lt;br/&gt;end loop;&lt;br/&gt;return;&lt;br/&gt;END parse_ms_valuelist_to_sql;</source>
+</FunctionOracle>

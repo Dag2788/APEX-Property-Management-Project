@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5594CADA-FFC0-E32F-C05C-A558ECD18079" name="NPM_PROP_AGREE">
+<sourceDDLFile>schema_test.sql</sourceDDLFile>
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:05:15 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+<importedID>172A7759-0070-1A00-7E4E-497861F5DE5F</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="AGREE_PROP_ID" id="99CAA35A-FA49-010E-27A4-DAC668248025">
+<sourceDDLFile>schema_test.sql</sourceDDLFile>
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:05:15 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+<importedID>5BC97757-90D4-D274-4E65-691DC707ED3D</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>6E70DE84-56EA-FD55-C31F-555863DF8645</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AGREEMENT_ID" id="5FDCC434-ECF2-C202-4EC5-50DF761563E8">
+<sourceDDLFile>schema_test.sql</sourceDDLFile>
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:05:15 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+<importedID>A6B0E86B-84DE-B1C5-0E6E-BEDAC1316F67</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>6E70DE84-56EA-FD55-C31F-555863DF8645</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROPERTY_ID" id="CE596AA4-B80C-0DA6-C523-23B5DED1F1D9">
+<sourceDDLFile>schema_test.sql</sourceDDLFile>
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:05:15 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+<importedID>E85D62BB-64F8-E9CE-4A50-41019E8C2CD9</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>6E70DE84-56EA-FD55-C31F-555863DF8645</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B384AEAD-EE6D-3051-D200-A66434CCE6CB" name="AGREEMENT_ID_FK_28">
+<sourceDDLFile>schema_test.sql</sourceDDLFile>
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:05:15 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+<importedID>F878B050-EFAD-ABAA-7142-6443ED4B3632</importedID>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5FDCC434-ECF2-C202-4EC5-50DF761563E8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FDE99872-022B-D0A1-E09F-900F692DD89B" name="PROPERTY_ID_FK_29">
+<sourceDDLFile>schema_test.sql</sourceDDLFile>
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:05:15 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+<importedID>1016C24F-D1FE-67A0-FD03-F451226BEC1C</importedID>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CE596AA4-B80C-0DA6-C523-23B5DED1F1D9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="RELATION_20" directorySegmentName="seg_0" id="BC0D949C-48C3-6F34-8000-6483F7848CDC">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:09:13 UTC</createdTime>
+<generatorID>4CD4721F-D3FF-2889-624D-660244913541</generatorID>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+<engineerTo>
+<item key="9C5C99D8-B214-D89C-9355-BBEECF223389" value="true"/>
+<item key="CD3D3A6E-066C-F12A-1649-FB842AE652B6" value="true"/>
+</engineerTo>
+<sourcePk>10317EAD-481F-6370-01F0-7725D83960D9</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E8CBD037-B137-9E34-A522-D9D77AA04C6C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C52183ED-C4D5-1942-98C0-DB9C295C965F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

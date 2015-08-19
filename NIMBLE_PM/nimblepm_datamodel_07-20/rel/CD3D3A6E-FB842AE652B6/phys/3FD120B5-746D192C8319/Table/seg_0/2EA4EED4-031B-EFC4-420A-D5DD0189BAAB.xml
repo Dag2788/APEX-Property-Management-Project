@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="NPM_APPROVALS" directorySegmentName="seg_0" id="2EA4EED4-031B-EFC4-420A-D5DD0189BAAB">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:05:15 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="CREATED_BY" id="5D7AB08B-22CF-F048-8E11-4E47970213E6">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:05:15 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NAME" id="6B6DCEBD-8223-6BF2-3AA4-C0E59122C6AD">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:05:15 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="UPDATED" id="853BAC04-7B4F-3F73-9E51-8487DC3D5617">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:05:15 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CREATED" id="B2B259FB-E570-FCBE-473D-3F5274684175">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:05:15 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="UPDATED_BY" id="BB5A53AD-8722-8B4B-3534-23B9809EBEA3">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:05:15 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ROW_VERSION_NUMBER" id="DB88661B-DB43-F163-303A-94325C459D07">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:05:15 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="APPROVAL_ID" id="DEC625C1-96E5-365B-14E0-996968F3BC88">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:05:15 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="NPM_APPROVALS_PK" id="E6B8F8F4-4CF8-8396-57AD-9DB472691CAB">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:05:15 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+<logging></logging>
+<segment>3BB7869C-9A3F-44DF-0918-75642E30C39F</segment>
+<indexSegment>3BB7869C-9A3F-44DF-0918-75642E30C39F</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

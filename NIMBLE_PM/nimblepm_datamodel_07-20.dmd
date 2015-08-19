@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="nimblepm_datamodel_07-20" id="135D6E26-863A-BF3F-F4F5-3523C49BEC0F" version="3.5">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:04:03 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>135D6E26-863A-BF3F-F4F5-3523C49BEC0F</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="EB362A19-D9CA-C34E-4293-CE66815FA84B">
+<designStoragePath>/schema_test</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

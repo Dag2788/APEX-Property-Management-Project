@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FunctionOracle class="oracle.dbtools.crest.model.design.storage.oracle.FunctionOracle" name="SPLIT" directorySegmentName="seg_0" id="5B0FDB68-B6AA-5E12-329F-322436E018BA">
+<sourceDDLFile>schema_test.sql</sourceDDLFile>
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:04:57 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+<source>CREATE OR REPLACE FUNCTION  SPLIT (p_in_string VARCHAR2, p_delim VARCHAR2)&lt;br/&gt;  RETURN t_array&lt;br/&gt;IS&lt;br/&gt;  i number :=0;&lt;br/&gt;  pos number :=0;&lt;br/&gt;  lv_str varchar2(50) := ltrim(p_in_string,p_delim);&lt;br/&gt;  strings t_array := t_array();&lt;br/&gt;BEGIN&lt;br/&gt; -- determine first chuck of string&lt;br/&gt; pos := instr(lv_str,p_delim,1,1);&lt;br/&gt; -- while there are chunks left, loop&lt;br/&gt; WHILE ( pos != 0)&lt;br/&gt; LOOP&lt;br/&gt; -- increment counter&lt;br/&gt;   i := i + 1;&lt;br/&gt;   -- create array element for chuck of string&lt;br/&gt;   strings.extend;&lt;br/&gt;   strings(i) := substr(lv_str,1,pos-1);&lt;br/&gt;   -- remove chunk from string&lt;br/&gt;   lv_str := substr(lv_str,pos+1,length(lv_str));&lt;br/&gt;   -- determine next chunk&lt;br/&gt;   pos := instr(lv_str,p_delim,1,1);&lt;br/&gt;   -- no last chunk, add to array&lt;br/&gt;   IF pos = 0&lt;br/&gt;   THEN&lt;br/&gt;     strings.extend;&lt;br/&gt;     strings(i+1) := lv_str;&lt;br/&gt;   END IF;&lt;br/&gt;   END LOOP;&lt;br/&gt;  -- return array&lt;br/&gt;  RETURN strings;&lt;br/&gt;END SPLIT;</source>
+</FunctionOracle>

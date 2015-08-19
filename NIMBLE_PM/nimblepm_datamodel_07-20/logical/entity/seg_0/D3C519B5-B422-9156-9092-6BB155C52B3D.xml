@@ -1,0 +1,263 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D3C519B5-B422-9156-9092-6BB155C52B3D" name="NPM DOCUMENT">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:09:13 UTC</createdTime>
+<generatorID>1E7FA020-5E48-40E5-033E-B88C398DFE59</generatorID>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+<engineerTo>
+<item key="9C5C99D8-B214-D89C-9355-BBEECF223389" value="true"/>
+<item key="CD3D3A6E-066C-F12A-1649-FB842AE652B6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="DOCUMENT ID" id="EEA8DF3A-8168-F17E-F52D-18AFBB2CD5AA">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:09:13 UTC</createdTime>
+<generatorID>69F6E24A-5BF7-9603-EA38-0D0BD25D0DCB</generatorID>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+<engineerTo>
+<item key="9C5C99D8-B214-D89C-9355-BBEECF223389" value="true"/>
+<item key="CD3D3A6E-066C-F12A-1649-FB842AE652B6" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>6E70DE84-56EA-FD55-C31F-555863DF8645</domain>
+</Attribute>
+<Attribute name="FILENAME" id="FB9966FF-B981-D3ED-711E-905F61E5172C">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:09:13 UTC</createdTime>
+<generatorID>47797B3D-BC53-CF55-151B-4C45586EB8C2</generatorID>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+<engineerTo>
+<item key="9C5C99D8-B214-D89C-9355-BBEECF223389" value="true"/>
+<item key="CD3D3A6E-066C-F12A-1649-FB842AE652B6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C37064F9-CE09-5BD2-70F7-FBEA763F3808</domain>
+</Attribute>
+<Attribute name="FILE MIMETYPE" id="2B584843-4C25-79F9-2078-D18DCBF63653">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:09:13 UTC</createdTime>
+<generatorID>B0E99A53-F8BF-A847-CF9E-E5C26835E4B3</generatorID>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+<engineerTo>
+<item key="9C5C99D8-B214-D89C-9355-BBEECF223389" value="true"/>
+<item key="CD3D3A6E-066C-F12A-1649-FB842AE652B6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BEB34076-7470-FDF8-F8B3-A5F0D0499DC5</domain>
+</Attribute>
+<Attribute name="FILE CHARSET" id="A7CB68C5-4B0B-BEEE-AA1B-251070DAF53F">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:09:13 UTC</createdTime>
+<generatorID>1C998FFA-5DD2-7295-2D4D-6E0D0CFE0F6C</generatorID>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+<engineerTo>
+<item key="9C5C99D8-B214-D89C-9355-BBEECF223389" value="true"/>
+<item key="CD3D3A6E-066C-F12A-1649-FB842AE652B6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BEB34076-7470-FDF8-F8B3-A5F0D0499DC5</domain>
+</Attribute>
+<Attribute name="FILE DATA" id="4C978AFC-53D0-8251-3B79-D8AD498208E6">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:09:13 UTC</createdTime>
+<generatorID>1A1AFCC6-5685-5701-D26C-9D52FE85ECD3</generatorID>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+<engineerTo>
+<item key="9C5C99D8-B214-D89C-9355-BBEECF223389" value="true"/>
+<item key="CD3D3A6E-066C-F12A-1649-FB842AE652B6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<domain>46AD4658-8E6A-1A57-B012-F74E3C850FB1</domain>
+</Attribute>
+<Attribute name="FILE COMMENTS" id="E74317A1-8AA5-CF4F-935E-07C7660455C4">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:09:13 UTC</createdTime>
+<generatorID>21168E88-E261-6888-1C0E-3ED02D79B0DA</generatorID>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+<engineerTo>
+<item key="9C5C99D8-B214-D89C-9355-BBEECF223389" value="true"/>
+<item key="CD3D3A6E-066C-F12A-1649-FB842AE652B6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C37064F9-CE09-5BD2-70F7-FBEA763F3808</domain>
+</Attribute>
+<Attribute name="TAGS" id="9270E3D8-8EF5-D5E2-3AA0-6058D4278138">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:09:13 UTC</createdTime>
+<generatorID>9CA0072B-026A-E54D-945B-E9C7B342392E</generatorID>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+<engineerTo>
+<item key="9C5C99D8-B214-D89C-9355-BBEECF223389" value="true"/>
+<item key="CD3D3A6E-066C-F12A-1649-FB842AE652B6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C37064F9-CE09-5BD2-70F7-FBEA763F3808</domain>
+</Attribute>
+<Attribute name="EMAIL ID" id="51434164-1536-7253-46BE-34190DD4B3DB">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:09:13 UTC</createdTime>
+<generatorID>292E0D13-C801-B360-13E1-B8891BF2B01E</generatorID>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+<engineerTo>
+<item key="9C5C99D8-B214-D89C-9355-BBEECF223389" value="true"/>
+<item key="CD3D3A6E-066C-F12A-1649-FB842AE652B6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>4DB65C0C-E9CD-91D2-4DB5-46BDEC6BB5D1</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>6E70DE84-56EA-FD55-C31F-555863DF8645</domain>
+</Attribute>
+<Attribute name="AGREEMENT ID" id="4A5D70B6-F907-457E-EBD4-9A6AF285D9E3">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:09:13 UTC</createdTime>
+<generatorID>45F1338A-9C9B-EDAE-E969-840870EEE00C</generatorID>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+<engineerTo>
+<item key="9C5C99D8-B214-D89C-9355-BBEECF223389" value="true"/>
+<item key="CD3D3A6E-066C-F12A-1649-FB842AE652B6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>E896632C-4940-6296-D324-976CB5EACDE6</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>6E70DE84-56EA-FD55-C31F-555863DF8645</domain>
+</Attribute>
+<Attribute name="FILE SIZE" id="929C543C-94EF-9AD1-EF75-BDC0A7ACF0AA">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:09:13 UTC</createdTime>
+<generatorID>96BBCECD-B4C1-9FAF-BFAC-7E4BE5CE5552</generatorID>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+<engineerTo>
+<item key="9C5C99D8-B214-D89C-9355-BBEECF223389" value="true"/>
+<item key="CD3D3A6E-066C-F12A-1649-FB842AE652B6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>6E70DE84-56EA-FD55-C31F-555863DF8645</domain>
+</Attribute>
+<Attribute name="AGREE APP ID" id="762F73B0-3C89-ECD0-D61C-C36AEDC94743">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:09:13 UTC</createdTime>
+<generatorID>3E8DC455-8AE6-9A14-AF42-117D452C8597</generatorID>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+<engineerTo>
+<item key="9C5C99D8-B214-D89C-9355-BBEECF223389" value="true"/>
+<item key="CD3D3A6E-066C-F12A-1649-FB842AE652B6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>6E70DE84-56EA-FD55-C31F-555863DF8645</domain>
+</Attribute>
+<Attribute name="CREATED" id="26E74F35-7859-F087-121A-5697993FEED2">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:09:13 UTC</createdTime>
+<generatorID>0DD3CCE2-52B1-0456-D1D3-677010933012</generatorID>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+<engineerTo>
+<item key="9C5C99D8-B214-D89C-9355-BBEECF223389" value="true"/>
+<item key="CD3D3A6E-066C-F12A-1649-FB842AE652B6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>C088B010-3073-E8C9-16B8-732C8FDC687F</domain>
+</Attribute>
+<Attribute name="CREATED BY" id="0FCE92E8-F1CF-7E1F-A6F5-34216E45B092">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:09:13 UTC</createdTime>
+<generatorID>3C127079-6584-D127-3CCE-4B3909C07E18</generatorID>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+<engineerTo>
+<item key="9C5C99D8-B214-D89C-9355-BBEECF223389" value="true"/>
+<item key="CD3D3A6E-066C-F12A-1649-FB842AE652B6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A66AF118-C268-14CE-8F42-978DAE668674</domain>
+</Attribute>
+<Attribute name="ROW VERSION NUMBER" id="151EE645-D55F-CD19-14B1-9745FF85D087">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:09:13 UTC</createdTime>
+<generatorID>0904FFAD-5D10-1D37-34B3-E9A19626E12D</generatorID>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+<engineerTo>
+<item key="9C5C99D8-B214-D89C-9355-BBEECF223389" value="true"/>
+<item key="CD3D3A6E-066C-F12A-1649-FB842AE652B6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>6E70DE84-56EA-FD55-C31F-555863DF8645</domain>
+</Attribute>
+<Attribute name="UPDATED" id="E8D3349A-1AB1-B3F1-1CF3-F6E1AC22595D">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:09:13 UTC</createdTime>
+<generatorID>B6752F75-1F51-A42F-D61A-DC063D2CD5DE</generatorID>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+<engineerTo>
+<item key="9C5C99D8-B214-D89C-9355-BBEECF223389" value="true"/>
+<item key="CD3D3A6E-066C-F12A-1649-FB842AE652B6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>C088B010-3073-E8C9-16B8-732C8FDC687F</domain>
+</Attribute>
+<Attribute name="UPDATED BY" id="2925D6F9-C406-D930-6057-2C1182BC0B6B">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:09:13 UTC</createdTime>
+<generatorID>78B53284-2FD8-0454-AC88-934510286E31</generatorID>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+<engineerTo>
+<item key="9C5C99D8-B214-D89C-9355-BBEECF223389" value="true"/>
+<item key="CD3D3A6E-066C-F12A-1649-FB842AE652B6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A66AF118-C268-14CE-8F42-978DAE668674</domain>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1B53E812-A99B-DA1C-5042-97B80D830A45" name="UTBC DOCUMENT PK">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:09:13 UTC</createdTime>
+<generatorID>AEFCE9ED-89AC-AD9C-1FDA-912DF89D9C95</generatorID>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="9C5C99D8-B214-D89C-9355-BBEECF223389" value="true"/>
+<item key="CD3D3A6E-066C-F12A-1649-FB842AE652B6" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EEA8DF3A-8168-F17E-F52D-18AFBB2CD5AA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
