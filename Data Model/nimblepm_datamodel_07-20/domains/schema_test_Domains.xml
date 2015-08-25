@@ -1,0 +1,268 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="schema_test_Domains">
+   <domains>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="NUMERIC_2_0_0" id="055454B4-7EF2-2A4B-C2E8-48537B344257">
+         <createdBy>carlostrejo</createdBy>
+         <createdTime>2015-07-06 20:05:15 UTC</createdTime>
+         <ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>2</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>0</dataTypeSize>
+         <fileName>schema_test_Domains</fileName>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_50" id="2CABDCE7-5F3F-593E-8DE4-BE421A19D017">
+         <createdBy>carlostrejo</createdBy>
+         <createdTime>2015-07-06 20:05:15 UTC</createdTime>
+         <ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>50</dataTypeSize>
+         <fileName>schema_test_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_300" id="2EB8DE7D-C0F8-CE2E-E29B-27EFA9BAC344">
+         <createdBy>carlostrejo</createdBy>
+         <createdTime>2015-07-06 20:05:15 UTC</createdTime>
+         <ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>300</dataTypeSize>
+         <fileName>schema_test_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_8" id="3CB26187-E5DA-F895-E091-CA902BDEF4C4">
+         <createdBy>carlostrejo</createdBy>
+         <createdTime>2015-07-06 20:05:15 UTC</createdTime>
+         <ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>8</dataTypeSize>
+         <fileName>schema_test_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="BLOB_0_0_0" id="46AD4658-8E6A-1A57-B012-F74E3C850FB1">
+         <createdBy>carlostrejo</createdBy>
+         <createdTime>2015-07-06 20:05:15 UTC</createdTime>
+         <ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <fileName>schema_test_Domains</fileName>
+         <logicalDatatype>LOGDT029</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_256" id="4BEE115C-4E9A-E122-CAF3-B8EEF55866AC">
+         <createdBy>carlostrejo</createdBy>
+         <createdTime>2015-07-06 20:05:15 UTC</createdTime>
+         <ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>256</dataTypeSize>
+         <fileName>schema_test_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="CHAR_0_0_1" id="4CF51755-AC55-E0E1-CFCB-EDAD2EBE0256">
+         <createdBy>carlostrejo</createdBy>
+         <createdTime>2015-07-06 20:05:15 UTC</createdTime>
+         <ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>1</dataTypeSize>
+         <fileName>schema_test_Domains</fileName>
+         <logicalDatatype>LOGDT025</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_400" id="5D93529A-4050-F06F-56C7-1239EEBA553B">
+         <createdBy>carlostrejo</createdBy>
+         <createdTime>2015-07-06 20:05:15 UTC</createdTime>
+         <ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>400</dataTypeSize>
+         <fileName>schema_test_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="NUMERIC_*_0_0" id="6E70DE84-56EA-FD55-C31F-555863DF8645">
+         <createdBy>carlostrejo</createdBy>
+         <createdTime>2015-07-06 20:05:15 UTC</createdTime>
+         <ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>*</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>0</dataTypeSize>
+         <fileName>schema_test_Domains</fileName>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="NUMERIC_19_2_0" id="77FB8421-4B99-0760-2D7E-C333CEFAE624">
+         <createdBy>carlostrejo</createdBy>
+         <createdTime>2015-07-06 20:05:15 UTC</createdTime>
+         <ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>19</dataTypePrecision>
+         <dataTypeScale>2</dataTypeScale>
+         <dataTypeSize>0</dataTypeSize>
+         <fileName>schema_test_Domains</fileName>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_50 CHAR" id="7AB5244D-3170-49CB-FBA0-DF52749D99C3">
+         <createdBy>carlostrejo</createdBy>
+         <createdTime>2015-07-06 20:05:15 UTC</createdTime>
+         <ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>50 CHAR</dataTypeSize>
+         <fileName>schema_test_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_4000 CHAR" id="7E51CB4D-A07B-E66A-8DC9-0D18B39394C4">
+         <createdBy>carlostrejo</createdBy>
+         <createdTime>2015-07-06 20:05:15 UTC</createdTime>
+         <ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>4000 CHAR</dataTypeSize>
+         <fileName>schema_test_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="CHAR_0_0_10" id="88CF68C9-A7EF-5416-AF61-E9925A8682FA">
+         <createdBy>carlostrejo</createdBy>
+         <createdTime>2015-07-06 20:05:15 UTC</createdTime>
+         <ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>10</dataTypeSize>
+         <fileName>schema_test_Domains</fileName>
+         <logicalDatatype>LOGDT025</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_150" id="A6406871-8230-5E09-2D88-C7E39201D8A8">
+         <createdBy>carlostrejo</createdBy>
+         <createdTime>2015-07-06 20:05:15 UTC</createdTime>
+         <ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>150</dataTypeSize>
+         <fileName>schema_test_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_255" id="A66AF118-C268-14CE-8F42-978DAE668674">
+         <createdBy>carlostrejo</createdBy>
+         <createdTime>2015-07-06 20:05:15 UTC</createdTime>
+         <ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>255</dataTypeSize>
+         <fileName>schema_test_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="CLOB_0_0_0" id="AE929917-8192-6AE8-4F74-4B918398916A">
+         <createdBy>carlostrejo</createdBy>
+         <createdTime>2015-07-06 20:05:15 UTC</createdTime>
+         <ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <fileName>schema_test_Domains</fileName>
+         <logicalDatatype>LOGDT028</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_512" id="BEB34076-7470-FDF8-F8B3-A5F0D0499DC5">
+         <createdBy>carlostrejo</createdBy>
+         <createdTime>2015-07-06 20:05:15 UTC</createdTime>
+         <ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>512</dataTypeSize>
+         <fileName>schema_test_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="Date_0_0_0" id="C088B010-3073-E8C9-16B8-732C8FDC687F">
+         <createdBy>carlostrejo</createdBy>
+         <createdTime>2015-07-06 20:05:15 UTC</createdTime>
+         <ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <fileName>schema_test_Domains</fileName>
+         <logicalDatatype>LOGDT007</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_40" id="C0F6616F-EB8D-78B0-4B50-B64CB86F23A6">
+         <createdBy>carlostrejo</createdBy>
+         <createdTime>2015-07-06 20:05:15 UTC</createdTime>
+         <ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>40</dataTypeSize>
+         <fileName>schema_test_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_4000" id="C37064F9-CE09-5BD2-70F7-FBEA763F3808">
+         <createdBy>carlostrejo</createdBy>
+         <createdTime>2015-07-06 20:05:15 UTC</createdTime>
+         <ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>4000</dataTypeSize>
+         <fileName>schema_test_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="NUMERIC_0_0_0" id="C8577EE6-87BA-51C0-5FCF-5431C1329AB0">
+         <createdBy>carlostrejo</createdBy>
+         <createdTime>2015-07-06 20:05:15 UTC</createdTime>
+         <ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <fileName>schema_test_Domains</fileName>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_100" id="DA6AA42C-5EA2-523E-AA7A-E661681A9C91">
+         <createdBy>carlostrejo</createdBy>
+         <createdTime>2015-07-06 20:05:15 UTC</createdTime>
+         <ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>100</dataTypeSize>
+         <fileName>schema_test_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_25" id="DEBA634A-695B-F6E0-93AD-439787D39807">
+         <createdBy>carlostrejo</createdBy>
+         <createdTime>2015-07-06 20:05:15 UTC</createdTime>
+         <ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>25</dataTypeSize>
+         <fileName>schema_test_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_45 CHAR" id="E6379181-A908-F801-6433-922CFB81EE18">
+         <createdBy>carlostrejo</createdBy>
+         <createdTime>2015-07-06 20:05:15 UTC</createdTime>
+         <ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>45 CHAR</dataTypeSize>
+         <fileName>schema_test_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_200" id="F170F3D4-FEC9-02E2-4297-7B9F9D02D34E">
+         <createdBy>carlostrejo</createdBy>
+         <createdTime>2015-07-06 20:05:15 UTC</createdTime>
+         <ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>200</dataTypeSize>
+         <fileName>schema_test_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+   </domains>
+</DomainFile>

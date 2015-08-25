@@ -1,0 +1,355 @@
+DROP SEQUENCE NPM_AGREEMENTS_seq ; 
+create sequence NPM_AGREEMENTS_seq 
+start with 100 
+increment by 1 
+nomaxvalue 
+;
+DROP TRIGGER NPM_AGREEMENTS_PK_trig 
+; 
+
+create or replace trigger NPM_AGREEMENTS_PK_trig 
+before insert on NPM_AGREEMENTS
+for each row 
+begin 
+select NPM_AGREEMENTS_seq.nextval into :new.AGREEMENT_ID from dual; 
+end; 
+/
+
+DROP SEQUENCE NPM_AGREE_APP_seq ; 
+create sequence NPM_AGREE_APP_seq 
+start with 100 
+increment by 1 
+nomaxvalue 
+;
+DROP TRIGGER NPM_AGREE_APP_PK_trig 
+; 
+
+create or replace trigger NPM_AGREE_APP_PK_trig 
+before insert on NPM_AGREE_APP
+for each row 
+begin 
+select NPM_AGREE_APP_seq.nextval into :new.AGREE_APP_ID from dual; 
+end; 
+/
+
+DROP SEQUENCE NPM_AGREE_TRIG_seq ; 
+create sequence NPM_AGREE_TRIG_seq 
+start with 100 
+increment by 1 
+nomaxvalue 
+;
+DROP TRIGGER NPM_AGREE_TRIG_PK_trig 
+; 
+
+create or replace trigger NPM_AGREE_TRIG_PK_trig 
+before insert on NPM_AGREE_TRIG
+for each row 
+begin 
+select NPM_AGREE_TRIG_seq.nextval into :new.AGREE_TRIG_ID from dual; 
+end; 
+/
+
+DROP SEQUENCE NPM_APPROVALS_seq ; 
+create sequence NPM_APPROVALS_seq 
+start with 100 
+increment by 1 
+nomaxvalue 
+;
+DROP TRIGGER NPM_APPROVALS_PK_trig 
+; 
+
+create or replace trigger NPM_APPROVALS_PK_trig 
+before insert on NPM_APPROVALS
+for each row 
+begin 
+select NPM_APPROVALS_seq.nextval into :new.APPROVAL_ID from dual; 
+end; 
+/
+
+DROP SEQUENCE NPM_BORDATES_seq ; 
+create sequence NPM_BORDATES_seq 
+start with 100 
+increment by 1 
+nomaxvalue 
+;
+DROP TRIGGER NPM_BORDATES_PK_trig 
+; 
+
+create or replace trigger NPM_BORDATES_PK_trig 
+before insert on NPM_BORDATES
+for each row 
+begin 
+select NPM_BORDATES_seq.nextval into :new.BORDATE_ID from dual; 
+end; 
+/
+
+DROP SEQUENCE NPM_BUILDING_seq ; 
+create sequence NPM_BUILDING_seq 
+start with 100 
+increment by 1 
+nomaxvalue 
+;
+DROP TRIGGER NPM_BUILDING_PK_trig 
+; 
+
+create or replace trigger NPM_BUILDING_PK_trig 
+before insert on NPM_BUILDING
+for each row 
+begin 
+select NPM_BUILDING_seq.nextval into :new.BUILDING_ID from dual; 
+end; 
+/
+
+DROP SEQUENCE NPM_CONTACT_seq ; 
+create sequence NPM_CONTACT_seq 
+start with 100 
+increment by 1 
+nomaxvalue 
+;
+DROP TRIGGER NPM_CONTACT_PK_trig 
+; 
+
+create or replace trigger NPM_CONTACT_PK_trig 
+before insert on NPM_CONTACT
+for each row 
+begin 
+select NPM_CONTACT_seq.nextval into :new.CONTACT_ID from dual; 
+end; 
+/
+
+DROP SEQUENCE NPM_DEPARTMENT_seq ; 
+create sequence NPM_DEPARTMENT_seq 
+start with 100 
+increment by 1 
+nomaxvalue 
+;
+DROP TRIGGER NPM_DEPARTMENT_PK_trig 
+; 
+
+create or replace trigger NPM_DEPARTMENT_PK_trig 
+before insert on NPM_DEPARTMENT
+for each row 
+begin 
+select NPM_DEPARTMENT_seq.nextval into :new.DEPARTMENT_ID from dual; 
+end; 
+/
+
+DROP SEQUENCE NPM_DOCUMENT_seq ; 
+create sequence NPM_DOCUMENT_seq 
+start with 100 
+increment by 1 
+nomaxvalue 
+;
+DROP TRIGGER NPM_DOCUMENT_PK_trig 
+; 
+
+create or replace trigger NPM_DOCUMENT_PK_trig 
+before insert on NPM_DOCUMENT
+for each row 
+begin 
+select NPM_DOCUMENT_seq.nextval into :new.DOCUMENT_ID from dual; 
+end; 
+/
+
+DROP SEQUENCE NPM_EMAIL_seq ; 
+create sequence NPM_EMAIL_seq 
+start with 100 
+increment by 1 
+nomaxvalue 
+;
+DROP TRIGGER NPM_EMAIL_PK_trig 
+; 
+
+create or replace trigger NPM_EMAIL_PK_trig 
+before insert on NPM_EMAIL
+for each row 
+begin 
+select NPM_EMAIL_seq.nextval into :new.EMAIL_ID from dual; 
+end; 
+/
+
+DROP SEQUENCE NPM_FLOOR_seq ; 
+create sequence NPM_FLOOR_seq 
+start with 100 
+increment by 1 
+nomaxvalue 
+;
+DROP TRIGGER NPM_FLOOR_PK_trig 
+; 
+
+create or replace trigger NPM_FLOOR_PK_trig 
+before insert on NPM_FLOOR
+for each row 
+begin 
+select NPM_FLOOR_seq.nextval into :new.FLOOR_ID from dual; 
+end; 
+/
+
+DROP SEQUENCE NPM_FORMER_NAME_seq ; 
+create sequence NPM_FORMER_NAME_seq 
+start with 100 
+increment by 1 
+nomaxvalue 
+;
+DROP TRIGGER NPM_FORMER_NAME_PK_trig 
+; 
+
+create or replace trigger NPM_FORMER_NAME_PK_trig 
+before insert on NPM_FORMER_NAME
+for each row 
+begin 
+select NPM_FORMER_NAME_seq.nextval into :new.NAME_ID from dual; 
+end; 
+/
+
+DROP SEQUENCE NPM_PROPERTY_seq ; 
+create sequence NPM_PROPERTY_seq 
+start with 100 
+increment by 1 
+nomaxvalue 
+;
+DROP TRIGGER NPM_PROPERTY_PK_trig 
+; 
+
+create or replace trigger NPM_PROPERTY_PK_trig 
+before insert on NPM_PROPERTY
+for each row 
+begin 
+select NPM_PROPERTY_seq.nextval into :new.PROPERTY_ID from dual; 
+end; 
+/
+
+DROP SEQUENCE NPM_STATE_seq ; 
+create sequence NPM_STATE_seq 
+start with 100 
+increment by 1 
+nomaxvalue 
+;
+DROP TRIGGER NPM_STATE_PK_trig 
+; 
+
+create or replace trigger NPM_STATE_PK_trig 
+before insert on NPM_STATE
+for each row 
+begin 
+select NPM_STATE_seq.nextval into :new.STATE_ID from dual; 
+end; 
+/
+
+DROP SEQUENCE NPM_TICKLERS_seq ; 
+create sequence NPM_TICKLERS_seq 
+start with 100 
+increment by 1 
+nomaxvalue 
+;
+DROP TRIGGER NPM_TICKLERS_PK_trig 
+; 
+
+create or replace trigger NPM_TICKLERS_PK_trig 
+before insert on NPM_TICKLERS
+for each row 
+begin 
+select NPM_TICKLERS_seq.nextval into :new.TICKLER_ID from dual; 
+end; 
+/
+
+DROP SEQUENCE NPM_TRIGGERS_seq ; 
+create sequence NPM_TRIGGERS_seq 
+start with 100 
+increment by 1 
+nomaxvalue 
+;
+DROP TRIGGER NPM_TRIGGERS_PK_trig 
+; 
+
+create or replace trigger NPM_TRIGGERS_PK_trig 
+before insert on NPM_TRIGGERS
+for each row 
+begin 
+select NPM_TRIGGERS_seq.nextval into :new.TRIGGER_ID from dual; 
+end; 
+/
+
+DROP SEQUENCE NPM_VENDOR_seq ; 
+create sequence NPM_VENDOR_seq 
+start with 100 
+increment by 1 
+nomaxvalue 
+;
+DROP TRIGGER NPM_VENDOR_PK_trig 
+; 
+
+create or replace trigger NPM_VENDOR_PK_trig 
+before insert on NPM_VENDOR
+for each row 
+begin 
+select NPM_VENDOR_seq.nextval into :new.VENDOR_ID from dual; 
+end; 
+/
+
+DROP INDEX AGREEMENT_ID_FK_0 ;
+CREATE INDEX AGREEMENT_ID_FK_0 ON NPM_PROPERTY(AGREEMENT_ID) ;
+DROP INDEX BUILDING_ID_FK_1 ;
+CREATE INDEX BUILDING_ID_FK_1 ON NPM_FLOOR(BUILDING_ID) ;
+DROP INDEX BUILDING_ID_FK_2 ;
+CREATE INDEX BUILDING_ID_FK_2 ON NPM_PROPERTY(BUILDING_ID) ;
+DROP INDEX FLOOR_ID_FK_3 ;
+CREATE INDEX FLOOR_ID_FK_3 ON NPM_PROPERTY(FLOOR_ID) ;
+DROP INDEX DEPARTMENT_ID_FK_4 ;
+CREATE INDEX DEPARTMENT_ID_FK_4 ON NPM_CONTACT(DEPARTMENT_ID) ;
+DROP INDEX AGREEMENT_ID_FK_5 ;
+CREATE INDEX AGREEMENT_ID_FK_5 ON NPM_EMAIL(AGREEMENT_ID) ;
+DROP INDEX VENDOR_ID_FK_6 ;
+CREATE INDEX VENDOR_ID_FK_6 ON NPM_FORMER_NAME(VENDOR_ID) ;
+DROP INDEX DEPARTMENT_ID_FK_7 ;
+CREATE INDEX DEPARTMENT_ID_FK_7 ON NPM_FORMER_NAME(DEPARTMENT_ID) ;
+DROP INDEX TRIGGER_ID_FK_8 ;
+CREATE INDEX TRIGGER_ID_FK_8 ON NPM_AGREE_TRIG(TRIGGER_ID) ;
+DROP INDEX AGREEMENT_ID_FK_9 ;
+CREATE INDEX AGREEMENT_ID_FK_9 ON NPM_AGREE_TRIG(AGREEMENT_ID) ;
+DROP INDEX RECEIVER_ID_FK_10 ;
+CREATE INDEX RECEIVER_ID_FK_10 ON NPM_EMAIL(RECEIVER_ID) ;
+DROP INDEX AGREEMENT_ID_FK_11 ;
+CREATE INDEX AGREEMENT_ID_FK_11 ON NPM_AGREE_APP(AGREEMENT_ID) ;
+DROP INDEX PROGRAMATIC_APPROVER_FK_12 ;
+CREATE INDEX PROGRAMATIC_APPROVER_FK_12 ON NPM_DEPARTMENT(PROGRAMATIC_APPROVER) ;
+DROP INDEX VENDOR_CONTACT_ID_FK_13 ;
+CREATE INDEX VENDOR_CONTACT_ID_FK_13 ON NPM_AGREEMENTS(VENDOR_CONTACT_ID) ;
+DROP INDEX APPROVAL_ID_FK_14 ;
+CREATE INDEX APPROVAL_ID_FK_14 ON NPM_AGREE_APP(APPROVAL_ID) ;
+DROP INDEX VEN_FORMER_NAME_ID_FK_15 ;
+CREATE INDEX VEN_FORMER_NAME_ID_FK_15 ON NPM_AGREEMENTS(VEN_FORMER_NAME_ID) ;
+DROP INDEX DEPT_FORMER_NAME_ID_FK_16 ;
+CREATE INDEX DEPT_FORMER_NAME_ID_FK_16 ON NPM_AGREEMENTS(DEPT_FORMER_NAME_ID) ;
+DROP INDEX CURRENT_NAME_ID_FK_17 ;
+CREATE INDEX CURRENT_NAME_ID_FK_17 ON NPM_DEPARTMENT(CURRENT_NAME_ID) ;
+DROP INDEX VENDOR_ID_FK_18 ;
+CREATE INDEX VENDOR_ID_FK_18 ON NPM_CONTACT(VENDOR_ID) ;
+DROP INDEX AGREE_APP_ID_FK_19 ;
+CREATE INDEX AGREE_APP_ID_FK_19 ON NPM_TICKLERS(AGREE_APP_ID) ;
+DROP INDEX SENDER_ID_FK_20 ;
+CREATE INDEX SENDER_ID_FK_20 ON NPM_EMAIL(SENDER_ID) ;
+DROP INDEX CONTACT_ID_FK_21 ;
+CREATE INDEX CONTACT_ID_FK_21 ON NPM_TICKLERS(CONTACT_ID) ;
+DROP INDEX AGREEMENT_ID_FK_22 ;
+CREATE INDEX AGREEMENT_ID_FK_22 ON NPM_DOCUMENT(AGREEMENT_ID) ;
+DROP INDEX DEPARTMENT_ID_FK_23 ;
+CREATE INDEX DEPARTMENT_ID_FK_23 ON NPM_AGREEMENTS(DEPARTMENT_ID) ;
+DROP INDEX DEPARTMENT_ID_FK_24 ;
+CREATE INDEX DEPARTMENT_ID_FK_24 ON NPM_TICKLERS(DEPARTMENT_ID) ;
+DROP INDEX DEPT_CONTACT_ADMIN_ID_FK_25 ;
+CREATE INDEX DEPT_CONTACT_ADMIN_ID_FK_25 ON NPM_AGREEMENTS(DEPT_CONTACT_ADMIN_ID) ;
+DROP INDEX DEPT_CONTACT_ID_FK_26 ;
+CREATE INDEX DEPT_CONTACT_ID_FK_26 ON NPM_AGREEMENTS(DEPT_CONTACT_ID) ;
+DROP INDEX EMAIL_ID_FK_27 ;
+CREATE INDEX EMAIL_ID_FK_27 ON NPM_DOCUMENT(EMAIL_ID) ;
+DROP INDEX AGREEMENT_ID_FK_28 ;
+CREATE INDEX AGREEMENT_ID_FK_28 ON NPM_TICKLERS(AGREEMENT_ID) ;
+DROP INDEX VENDOR_ID_FK_29 ;
+CREATE INDEX VENDOR_ID_FK_29 ON NPM_AGREEMENTS(VENDOR_ID) ;
+DROP INDEX VENDOR_ID_FK_30 ;
+CREATE INDEX VENDOR_ID_FK_30 ON NPM_TICKLERS(VENDOR_ID) ;
+DROP INDEX PROPERTY_ID1_FK_31 ;
+CREATE INDEX PROPERTY_ID1_FK_31 ON NPM_PROPERTY(PROPERTY_ID1) ;
+DROP INDEX CURRENT_NAME_ID_FK_32 ;
+CREATE INDEX CURRENT_NAME_ID_FK_32 ON NPM_VENDOR(CURRENT_NAME_ID) ;

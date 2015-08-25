@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="NPM_FORMER_NAME" directorySegmentName="seg_0" id="FD1D4B1B-C537-F5D3-2756-A892E7B95449">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:05:15 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="CREATED_BY" id="03FF8EC3-B9E6-24B5-FD28-3B8082AF3227">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:05:15 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="UPDATED" id="1A9D5D32-6938-2DDE-73DD-9C487C3BBE38">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:05:15 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NAME" id="20734AEA-BB5E-972F-EA4E-C37688FB3C78">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:05:15 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="UPDATED_BY" id="2A72D7F5-FA55-8E60-296C-1CAF5FA6F358">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:05:15 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NPM_DEPARTMENT_DEPARTMENT_ID" id="2EE1FACE-7AE8-931F-0665-A2F476262FE6">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:05:15 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ROW_VERSION_NUMBER" id="400B96C7-63B1-8F82-0FF8-1AE4DAB49017">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:05:15 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CREATED" id="56F08132-FF6E-2938-9105-B85A537D3507">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:05:15 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NPM_VENDOR_VENDOR_ID" id="C2CBB6EB-52B3-71DE-378E-6A8CD3B2C639">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:05:15 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NAME_ID" id="C322D4CF-D5AD-B2B2-28D5-578A26B249C9">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:05:15 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CURRENT_NAME" id="CF923123-39D4-02F3-A029-D3346B39C85A">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:05:15 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="NPM_FORMER_NAME_NPM_DEPARTMENT_FK" id="BE08A3BC-89A9-F086-B645-50A3EDD21D99">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:05:15 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="NPM_FORMER_NAME_NPM_VENDOR_FK" id="FFE4048B-587B-085B-30EC-2968D4C0DE6C">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:05:15 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="NPM_FORMER_NAME_PK" id="2391DC9F-98A3-C91E-FFCC-2ED9747D1AAB">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:05:15 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+<logging></logging>
+<segment>3BB7869C-9A3F-44DF-0918-75642E30C39F</segment>
+<indexSegment>3BB7869C-9A3F-44DF-0918-75642E30C39F</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

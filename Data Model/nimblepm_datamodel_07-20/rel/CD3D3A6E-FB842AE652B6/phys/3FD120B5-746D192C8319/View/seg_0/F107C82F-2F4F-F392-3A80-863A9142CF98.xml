@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableViewProxyOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TableViewProxyOraclev10g" name="NPM_LOG_UNIT" directorySegmentName="seg_0" id="F107C82F-2F4F-F392-3A80-863A9142CF98">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:05:16 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+<definition>CREATE OR REPLACE FORCE VIEW  &quot;NPM_LOG_UNIT&quot; (&quot;PROPERTY_ID&quot;, &quot;PROPERTY_TYPE&quot;, &quot;LEASE_TYPE&quot;, &quot;LOG_UNIT_NAME&quot;, &quot;PHY_UNIT_NAME&quot;, &quot;PHY_ROOM_NAME&quot;, &quot;START_DATE&quot;, &quot;END_DATE&quot;, &quot;BUILDING_ID&quot;, &quot;FLOOR_ID&quot;, &quot;PROPERTY_ID1&quot;, &quot;AGREEMENT_ID&quot;) AS &lt;br/&gt;  SELECT &lt;br/&gt;    PROPERTY_ID,&lt;br/&gt;    PROPERTY_TYPE,&lt;br/&gt;    LEASE_TYPE,&lt;br/&gt;    LOG_UNIT_NAME,&lt;br/&gt;    PHY_UNIT_NAME,&lt;br/&gt;    PHY_ROOM_NAME,&lt;br/&gt;    START_DATE,&lt;br/&gt;    END_DATE,&lt;br/&gt;    BUILDING_ID,&lt;br/&gt;    FLOOR_ID,&lt;br/&gt;    PROPERTY_ID1,&lt;br/&gt;    AGREEMENT_ID&lt;br/&gt;FROM NPM_property where property_type = &apos;Logical Unit&apos;</definition>
+<force>YES</force>
+</TableViewProxyOraclev10g>

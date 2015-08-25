@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="6CB6AA6B-4B4F-E24E-0FBA-803DC85E5505">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:04:03 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

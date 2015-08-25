@@ -1,0 +1,746 @@
+DROP SEQUENCE NPM_AGREEMENTS_seq ; 
+create sequence NPM_AGREEMENTS_seq 
+start with 100 
+increment by 1 
+nomaxvalue 
+;
+
+create or replace trigger NPM_AGREEMENTS_PK_trig 
+before insert on NPM_AGREEMENTS
+for each row 
+begin 
+select NPM_AGREEMENTS_seq.nextval into :new.AGREEMENT_ID from dual; 
+end; 
+/
+alter table NPM_AGREEMENTS add created date ; 
+alter table NPM_AGREEMENTS add created_by VARCHAR2 (255) ; 
+alter table NPM_AGREEMENTS add row_version_number integer ; 
+alter table NPM_AGREEMENTS add updated date ; 
+alter table NPM_AGREEMENTS add updated_by VARCHAR2 (255) ; 
+/
+create or replace trigger NPM_AGREEMENTS_AUD_trig 
+before insert or update on NPM_AGREEMENTS 
+for each row 
+begin 
+  if inserting then 
+    :new.created := localtimestamp; 
+    :new.created_by := nvl(wwv_flow.g_user,user); 
+    :new.updated := localtimestamp; 
+    :new.updated_by := nvl(wwv_flow.g_user,user); 
+    :new.row_version_number := 1; 
+  elsif updating then 
+    :new.row_version_number := nvl(:old.row_version_number,1) + 1; 
+  end if; 
+  if inserting or updating then 
+    :new.updated := localtimestamp; 
+    :new.updated_by := nvl(wwv_flow.g_user,user); 
+  end if; 
+end; 
+/
+
+DROP SEQUENCE NPM_AGREE_APP_seq ; 
+create sequence NPM_AGREE_APP_seq 
+start with 100 
+increment by 1 
+nomaxvalue 
+;
+
+create or replace trigger NPM_AGREE_APP_PK_trig 
+before insert on NPM_AGREE_APP
+for each row 
+begin 
+select NPM_AGREE_APP_seq.nextval into :new.AGREE_APP_ID from dual; 
+end; 
+/
+alter table NPM_AGREE_APP add created date ; 
+alter table NPM_AGREE_APP add created_by VARCHAR2 (255) ; 
+alter table NPM_AGREE_APP add row_version_number integer ; 
+alter table NPM_AGREE_APP add updated date ; 
+alter table NPM_AGREE_APP add updated_by VARCHAR2 (255) ; 
+/
+create or replace trigger NPM_AGREE_APP_AUD_trig 
+before insert or update on NPM_AGREE_APP 
+for each row 
+begin 
+  if inserting then 
+    :new.created := localtimestamp; 
+    :new.created_by := nvl(wwv_flow.g_user,user); 
+    :new.updated := localtimestamp; 
+    :new.updated_by := nvl(wwv_flow.g_user,user); 
+    :new.row_version_number := 1; 
+  elsif updating then 
+    :new.row_version_number := nvl(:old.row_version_number,1) + 1; 
+  end if; 
+  if inserting or updating then 
+    :new.updated := localtimestamp; 
+    :new.updated_by := nvl(wwv_flow.g_user,user); 
+  end if; 
+end; 
+/
+
+DROP SEQUENCE NPM_AGREE_TRIG_seq ; 
+create sequence NPM_AGREE_TRIG_seq 
+start with 100 
+increment by 1 
+nomaxvalue 
+;
+
+create or replace trigger NPM_AGREE_TRIG_PK_trig 
+before insert on NPM_AGREE_TRIG
+for each row 
+begin 
+select NPM_AGREE_TRIG_seq.nextval into :new.AGREE_TRIG_ID from dual; 
+end; 
+/
+alter table NPM_AGREE_TRIG add created date ; 
+alter table NPM_AGREE_TRIG add created_by VARCHAR2 (255) ; 
+alter table NPM_AGREE_TRIG add row_version_number integer ; 
+alter table NPM_AGREE_TRIG add updated date ; 
+alter table NPM_AGREE_TRIG add updated_by VARCHAR2 (255) ; 
+/
+create or replace trigger NPM_AGREE_TRIG_AUD_trig 
+before insert or update on NPM_AGREE_TRIG 
+for each row 
+begin 
+  if inserting then 
+    :new.created := localtimestamp; 
+    :new.created_by := nvl(wwv_flow.g_user,user); 
+    :new.updated := localtimestamp; 
+    :new.updated_by := nvl(wwv_flow.g_user,user); 
+    :new.row_version_number := 1; 
+  elsif updating then 
+    :new.row_version_number := nvl(:old.row_version_number,1) + 1; 
+  end if; 
+  if inserting or updating then 
+    :new.updated := localtimestamp; 
+    :new.updated_by := nvl(wwv_flow.g_user,user); 
+  end if; 
+end; 
+/
+
+DROP SEQUENCE NPM_APPROVALS_seq ; 
+create sequence NPM_APPROVALS_seq 
+start with 100 
+increment by 1 
+nomaxvalue 
+;
+
+create or replace trigger NPM_APPROVALS_PK_trig 
+before insert on NPM_APPROVALS
+for each row 
+begin 
+select NPM_APPROVALS_seq.nextval into :new.APPROVAL_ID from dual; 
+end; 
+/
+alter table NPM_APPROVALS add created date ; 
+alter table NPM_APPROVALS add created_by VARCHAR2 (255) ; 
+alter table NPM_APPROVALS add row_version_number integer ; 
+alter table NPM_APPROVALS add updated date ; 
+alter table NPM_APPROVALS add updated_by VARCHAR2 (255) ; 
+/
+create or replace trigger NPM_APPROVALS_AUD_trig 
+before insert or update on NPM_APPROVALS 
+for each row 
+begin 
+  if inserting then 
+    :new.created := localtimestamp; 
+    :new.created_by := nvl(wwv_flow.g_user,user); 
+    :new.updated := localtimestamp; 
+    :new.updated_by := nvl(wwv_flow.g_user,user); 
+    :new.row_version_number := 1; 
+  elsif updating then 
+    :new.row_version_number := nvl(:old.row_version_number,1) + 1; 
+  end if; 
+  if inserting or updating then 
+    :new.updated := localtimestamp; 
+    :new.updated_by := nvl(wwv_flow.g_user,user); 
+  end if; 
+end; 
+/
+
+DROP SEQUENCE NPM_BORDATES_seq ; 
+create sequence NPM_BORDATES_seq 
+start with 100 
+increment by 1 
+nomaxvalue 
+;
+
+create or replace trigger NPM_BORDATES_PK_trig 
+before insert on NPM_BORDATES
+for each row 
+begin 
+select NPM_BORDATES_seq.nextval into :new.BORDATE_ID from dual; 
+end; 
+/
+alter table NPM_BORDATES add created date ; 
+alter table NPM_BORDATES add created_by VARCHAR2 (255) ; 
+alter table NPM_BORDATES add row_version_number integer ; 
+alter table NPM_BORDATES add updated date ; 
+alter table NPM_BORDATES add updated_by VARCHAR2 (255) ; 
+/
+create or replace trigger NPM_BORDATES_AUD_trig 
+before insert or update on NPM_BORDATES 
+for each row 
+begin 
+  if inserting then 
+    :new.created := localtimestamp; 
+    :new.created_by := nvl(wwv_flow.g_user,user); 
+    :new.updated := localtimestamp; 
+    :new.updated_by := nvl(wwv_flow.g_user,user); 
+    :new.row_version_number := 1; 
+  elsif updating then 
+    :new.row_version_number := nvl(:old.row_version_number,1) + 1; 
+  end if; 
+  if inserting or updating then 
+    :new.updated := localtimestamp; 
+    :new.updated_by := nvl(wwv_flow.g_user,user); 
+  end if; 
+end; 
+/
+
+DROP SEQUENCE NPM_BUILDING_seq ; 
+create sequence NPM_BUILDING_seq 
+start with 100 
+increment by 1 
+nomaxvalue 
+;
+
+create or replace trigger NPM_BUILDING_PK_trig 
+before insert on NPM_BUILDING
+for each row 
+begin 
+select NPM_BUILDING_seq.nextval into :new.BUILDING_ID from dual; 
+end; 
+/
+alter table NPM_BUILDING add created date ; 
+alter table NPM_BUILDING add created_by VARCHAR2 (255) ; 
+alter table NPM_BUILDING add row_version_number integer ; 
+alter table NPM_BUILDING add updated date ; 
+alter table NPM_BUILDING add updated_by VARCHAR2 (255) ; 
+/
+create or replace trigger NPM_BUILDING_AUD_trig 
+before insert or update on NPM_BUILDING 
+for each row 
+begin 
+  if inserting then 
+    :new.created := localtimestamp; 
+    :new.created_by := nvl(wwv_flow.g_user,user); 
+    :new.updated := localtimestamp; 
+    :new.updated_by := nvl(wwv_flow.g_user,user); 
+    :new.row_version_number := 1; 
+  elsif updating then 
+    :new.row_version_number := nvl(:old.row_version_number,1) + 1; 
+  end if; 
+  if inserting or updating then 
+    :new.updated := localtimestamp; 
+    :new.updated_by := nvl(wwv_flow.g_user,user); 
+  end if; 
+end; 
+/
+
+DROP SEQUENCE NPM_CONTACT_seq ; 
+create sequence NPM_CONTACT_seq 
+start with 100 
+increment by 1 
+nomaxvalue 
+;
+
+create or replace trigger NPM_CONTACT_PK_trig 
+before insert on NPM_CONTACT
+for each row 
+begin 
+select NPM_CONTACT_seq.nextval into :new.CONTACT_ID from dual; 
+end; 
+/
+alter table NPM_CONTACT add created date ; 
+alter table NPM_CONTACT add created_by VARCHAR2 (255) ; 
+alter table NPM_CONTACT add row_version_number integer ; 
+alter table NPM_CONTACT add updated date ; 
+alter table NPM_CONTACT add updated_by VARCHAR2 (255) ; 
+/
+create or replace trigger NPM_CONTACT_AUD_trig 
+before insert or update on NPM_CONTACT 
+for each row 
+begin 
+  if inserting then 
+    :new.created := localtimestamp; 
+    :new.created_by := nvl(wwv_flow.g_user,user); 
+    :new.updated := localtimestamp; 
+    :new.updated_by := nvl(wwv_flow.g_user,user); 
+    :new.row_version_number := 1; 
+  elsif updating then 
+    :new.row_version_number := nvl(:old.row_version_number,1) + 1; 
+  end if; 
+  if inserting or updating then 
+    :new.updated := localtimestamp; 
+    :new.updated_by := nvl(wwv_flow.g_user,user); 
+  end if; 
+end; 
+/
+
+DROP SEQUENCE NPM_DEPARTMENT_seq ; 
+create sequence NPM_DEPARTMENT_seq 
+start with 100 
+increment by 1 
+nomaxvalue 
+;
+
+create or replace trigger NPM_DEPARTMENT_PK_trig 
+before insert on NPM_DEPARTMENT
+for each row 
+begin 
+select NPM_DEPARTMENT_seq.nextval into :new.DEPARTMENT_ID from dual; 
+end; 
+/
+alter table NPM_DEPARTMENT add created date ; 
+alter table NPM_DEPARTMENT add created_by VARCHAR2 (255) ; 
+alter table NPM_DEPARTMENT add row_version_number integer ; 
+alter table NPM_DEPARTMENT add updated date ; 
+alter table NPM_DEPARTMENT add updated_by VARCHAR2 (255) ; 
+/
+create or replace trigger NPM_DEPARTMENT_AUD_trig 
+before insert or update on NPM_DEPARTMENT 
+for each row 
+begin 
+  if inserting then 
+    :new.created := localtimestamp; 
+    :new.created_by := nvl(wwv_flow.g_user,user); 
+    :new.updated := localtimestamp; 
+    :new.updated_by := nvl(wwv_flow.g_user,user); 
+    :new.row_version_number := 1; 
+  elsif updating then 
+    :new.row_version_number := nvl(:old.row_version_number,1) + 1; 
+  end if; 
+  if inserting or updating then 
+    :new.updated := localtimestamp; 
+    :new.updated_by := nvl(wwv_flow.g_user,user); 
+  end if; 
+end; 
+/
+
+DROP SEQUENCE NPM_DOCUMENT_seq ; 
+create sequence NPM_DOCUMENT_seq 
+start with 100 
+increment by 1 
+nomaxvalue 
+;
+
+create or replace trigger NPM_DOCUMENT_PK_trig 
+before insert on NPM_DOCUMENT
+for each row 
+begin 
+select NPM_DOCUMENT_seq.nextval into :new.DOCUMENT_ID from dual; 
+end; 
+/
+alter table NPM_DOCUMENT add created date ; 
+alter table NPM_DOCUMENT add created_by VARCHAR2 (255) ; 
+alter table NPM_DOCUMENT add row_version_number integer ; 
+alter table NPM_DOCUMENT add updated date ; 
+alter table NPM_DOCUMENT add updated_by VARCHAR2 (255) ; 
+/
+create or replace trigger NPM_DOCUMENT_AUD_trig 
+before insert or update on NPM_DOCUMENT 
+for each row 
+begin 
+  if inserting then 
+    :new.created := localtimestamp; 
+    :new.created_by := nvl(wwv_flow.g_user,user); 
+    :new.updated := localtimestamp; 
+    :new.updated_by := nvl(wwv_flow.g_user,user); 
+    :new.row_version_number := 1; 
+  elsif updating then 
+    :new.row_version_number := nvl(:old.row_version_number,1) + 1; 
+  end if; 
+  if inserting or updating then 
+    :new.updated := localtimestamp; 
+    :new.updated_by := nvl(wwv_flow.g_user,user); 
+  end if; 
+end; 
+/
+
+DROP SEQUENCE NPM_EMAIL_seq ; 
+create sequence NPM_EMAIL_seq 
+start with 100 
+increment by 1 
+nomaxvalue 
+;
+
+create or replace trigger NPM_EMAIL_PK_trig 
+before insert on NPM_EMAIL
+for each row 
+begin 
+select NPM_EMAIL_seq.nextval into :new.EMAIL_ID from dual; 
+end; 
+/
+alter table NPM_EMAIL add created date ; 
+alter table NPM_EMAIL add created_by VARCHAR2 (255) ; 
+alter table NPM_EMAIL add row_version_number integer ; 
+alter table NPM_EMAIL add updated date ; 
+alter table NPM_EMAIL add updated_by VARCHAR2 (255) ; 
+/
+create or replace trigger NPM_EMAIL_AUD_trig 
+before insert or update on NPM_EMAIL 
+for each row 
+begin 
+  if inserting then 
+    :new.created := localtimestamp; 
+    :new.created_by := nvl(wwv_flow.g_user,user); 
+    :new.updated := localtimestamp; 
+    :new.updated_by := nvl(wwv_flow.g_user,user); 
+    :new.row_version_number := 1; 
+  elsif updating then 
+    :new.row_version_number := nvl(:old.row_version_number,1) + 1; 
+  end if; 
+  if inserting or updating then 
+    :new.updated := localtimestamp; 
+    :new.updated_by := nvl(wwv_flow.g_user,user); 
+  end if; 
+end; 
+/
+
+DROP SEQUENCE NPM_FLOOR_seq ; 
+create sequence NPM_FLOOR_seq 
+start with 100 
+increment by 1 
+nomaxvalue 
+;
+
+create or replace trigger NPM_FLOOR_PK_trig 
+before insert on NPM_FLOOR
+for each row 
+begin 
+select NPM_FLOOR_seq.nextval into :new.FLOOR_ID from dual; 
+end; 
+/
+alter table NPM_FLOOR add created date ; 
+alter table NPM_FLOOR add created_by VARCHAR2 (255) ; 
+alter table NPM_FLOOR add row_version_number integer ; 
+alter table NPM_FLOOR add updated date ; 
+alter table NPM_FLOOR add updated_by VARCHAR2 (255) ; 
+/
+create or replace trigger NPM_FLOOR_AUD_trig 
+before insert or update on NPM_FLOOR 
+for each row 
+begin 
+  if inserting then 
+    :new.created := localtimestamp; 
+    :new.created_by := nvl(wwv_flow.g_user,user); 
+    :new.updated := localtimestamp; 
+    :new.updated_by := nvl(wwv_flow.g_user,user); 
+    :new.row_version_number := 1; 
+  elsif updating then 
+    :new.row_version_number := nvl(:old.row_version_number,1) + 1; 
+  end if; 
+  if inserting or updating then 
+    :new.updated := localtimestamp; 
+    :new.updated_by := nvl(wwv_flow.g_user,user); 
+  end if; 
+end; 
+/
+
+DROP SEQUENCE NPM_FORMER_NAME_seq ; 
+create sequence NPM_FORMER_NAME_seq 
+start with 100 
+increment by 1 
+nomaxvalue 
+;
+
+create or replace trigger NPM_FORMER_NAME_PK_trig 
+before insert on NPM_FORMER_NAME
+for each row 
+begin 
+select NPM_FORMER_NAME_seq.nextval into :new.NAME_ID from dual; 
+end; 
+/
+alter table NPM_FORMER_NAME add created date ; 
+alter table NPM_FORMER_NAME add created_by VARCHAR2 (255) ; 
+alter table NPM_FORMER_NAME add row_version_number integer ; 
+alter table NPM_FORMER_NAME add updated date ; 
+alter table NPM_FORMER_NAME add updated_by VARCHAR2 (255) ; 
+/
+create or replace trigger NPM_FORMER_NAME_AUD_trig 
+before insert or update on NPM_FORMER_NAME 
+for each row 
+begin 
+  if inserting then 
+    :new.created := localtimestamp; 
+    :new.created_by := nvl(wwv_flow.g_user,user); 
+    :new.updated := localtimestamp; 
+    :new.updated_by := nvl(wwv_flow.g_user,user); 
+    :new.row_version_number := 1; 
+  elsif updating then 
+    :new.row_version_number := nvl(:old.row_version_number,1) + 1; 
+  end if; 
+  if inserting or updating then 
+    :new.updated := localtimestamp; 
+    :new.updated_by := nvl(wwv_flow.g_user,user); 
+  end if; 
+end; 
+/
+
+DROP SEQUENCE NPM_PROPERTY_seq ; 
+create sequence NPM_PROPERTY_seq 
+start with 100 
+increment by 1 
+nomaxvalue 
+;
+
+create or replace trigger NPM_PROPERTY_PK_trig 
+before insert on NPM_PROPERTY
+for each row 
+begin 
+select NPM_PROPERTY_seq.nextval into :new.PROPERTY_ID from dual; 
+end; 
+/
+alter table NPM_PROPERTY add created date ; 
+alter table NPM_PROPERTY add created_by VARCHAR2 (255) ; 
+alter table NPM_PROPERTY add row_version_number integer ; 
+alter table NPM_PROPERTY add updated date ; 
+alter table NPM_PROPERTY add updated_by VARCHAR2 (255) ; 
+/
+create or replace trigger NPM_PROPERTY_AUD_trig 
+before insert or update on NPM_PROPERTY 
+for each row 
+begin 
+  if inserting then 
+    :new.created := localtimestamp; 
+    :new.created_by := nvl(wwv_flow.g_user,user); 
+    :new.updated := localtimestamp; 
+    :new.updated_by := nvl(wwv_flow.g_user,user); 
+    :new.row_version_number := 1; 
+  elsif updating then 
+    :new.row_version_number := nvl(:old.row_version_number,1) + 1; 
+  end if; 
+  if inserting or updating then 
+    :new.updated := localtimestamp; 
+    :new.updated_by := nvl(wwv_flow.g_user,user); 
+  end if; 
+end; 
+/
+
+DROP SEQUENCE NPM_STATE_seq ; 
+create sequence NPM_STATE_seq 
+start with 100 
+increment by 1 
+nomaxvalue 
+;
+
+create or replace trigger NPM_STATE_PK_trig 
+before insert on NPM_STATE
+for each row 
+begin 
+select NPM_STATE_seq.nextval into :new.STATE_ID from dual; 
+end; 
+/
+alter table NPM_STATE add created date ; 
+alter table NPM_STATE add created_by VARCHAR2 (255) ; 
+alter table NPM_STATE add row_version_number integer ; 
+alter table NPM_STATE add updated date ; 
+alter table NPM_STATE add updated_by VARCHAR2 (255) ; 
+/
+create or replace trigger NPM_STATE_AUD_trig 
+before insert or update on NPM_STATE 
+for each row 
+begin 
+  if inserting then 
+    :new.created := localtimestamp; 
+    :new.created_by := nvl(wwv_flow.g_user,user); 
+    :new.updated := localtimestamp; 
+    :new.updated_by := nvl(wwv_flow.g_user,user); 
+    :new.row_version_number := 1; 
+  elsif updating then 
+    :new.row_version_number := nvl(:old.row_version_number,1) + 1; 
+  end if; 
+  if inserting or updating then 
+    :new.updated := localtimestamp; 
+    :new.updated_by := nvl(wwv_flow.g_user,user); 
+  end if; 
+end; 
+/
+
+DROP SEQUENCE NPM_TICKLERS_seq ; 
+create sequence NPM_TICKLERS_seq 
+start with 100 
+increment by 1 
+nomaxvalue 
+;
+
+create or replace trigger NPM_TICKLERS_PK_trig 
+before insert on NPM_TICKLERS
+for each row 
+begin 
+select NPM_TICKLERS_seq.nextval into :new.TICKLER_ID from dual; 
+end; 
+/
+alter table NPM_TICKLERS add created date ; 
+alter table NPM_TICKLERS add created_by VARCHAR2 (255) ; 
+alter table NPM_TICKLERS add row_version_number integer ; 
+alter table NPM_TICKLERS add updated date ; 
+alter table NPM_TICKLERS add updated_by VARCHAR2 (255) ; 
+/
+create or replace trigger NPM_TICKLERS_AUD_trig 
+before insert or update on NPM_TICKLERS 
+for each row 
+begin 
+  if inserting then 
+    :new.created := localtimestamp; 
+    :new.created_by := nvl(wwv_flow.g_user,user); 
+    :new.updated := localtimestamp; 
+    :new.updated_by := nvl(wwv_flow.g_user,user); 
+    :new.row_version_number := 1; 
+  elsif updating then 
+    :new.row_version_number := nvl(:old.row_version_number,1) + 1; 
+  end if; 
+  if inserting or updating then 
+    :new.updated := localtimestamp; 
+    :new.updated_by := nvl(wwv_flow.g_user,user); 
+  end if; 
+end; 
+/
+
+DROP SEQUENCE NPM_TRIGGERS_seq ; 
+create sequence NPM_TRIGGERS_seq 
+start with 100 
+increment by 1 
+nomaxvalue 
+;
+
+create or replace trigger NPM_TRIGGERS_PK_trig 
+before insert on NPM_TRIGGERS
+for each row 
+begin 
+select NPM_TRIGGERS_seq.nextval into :new.TRIGGER_ID from dual; 
+end; 
+/
+alter table NPM_TRIGGERS add created date ; 
+alter table NPM_TRIGGERS add created_by VARCHAR2 (255) ; 
+alter table NPM_TRIGGERS add row_version_number integer ; 
+alter table NPM_TRIGGERS add updated date ; 
+alter table NPM_TRIGGERS add updated_by VARCHAR2 (255) ; 
+/
+create or replace trigger NPM_TRIGGERS_AUD_trig 
+before insert or update on NPM_TRIGGERS 
+for each row 
+begin 
+  if inserting then 
+    :new.created := localtimestamp; 
+    :new.created_by := nvl(wwv_flow.g_user,user); 
+    :new.updated := localtimestamp; 
+    :new.updated_by := nvl(wwv_flow.g_user,user); 
+    :new.row_version_number := 1; 
+  elsif updating then 
+    :new.row_version_number := nvl(:old.row_version_number,1) + 1; 
+  end if; 
+  if inserting or updating then 
+    :new.updated := localtimestamp; 
+    :new.updated_by := nvl(wwv_flow.g_user,user); 
+  end if; 
+end; 
+/
+
+DROP SEQUENCE NPM_VENDOR_seq ; 
+create sequence NPM_VENDOR_seq 
+start with 100 
+increment by 1 
+nomaxvalue 
+;
+
+create or replace trigger NPM_VENDOR_PK_trig 
+before insert on NPM_VENDOR
+for each row 
+begin 
+select NPM_VENDOR_seq.nextval into :new.VENDOR_ID from dual; 
+end; 
+/
+alter table NPM_VENDOR add created date ; 
+alter table NPM_VENDOR add created_by VARCHAR2 (255) ; 
+alter table NPM_VENDOR add row_version_number integer ; 
+alter table NPM_VENDOR add updated date ; 
+alter table NPM_VENDOR add updated_by VARCHAR2 (255) ; 
+/
+create or replace trigger NPM_VENDOR_AUD_trig 
+before insert or update on NPM_VENDOR 
+for each row 
+begin 
+  if inserting then 
+    :new.created := localtimestamp; 
+    :new.created_by := nvl(wwv_flow.g_user,user); 
+    :new.updated := localtimestamp; 
+    :new.updated_by := nvl(wwv_flow.g_user,user); 
+    :new.row_version_number := 1; 
+  elsif updating then 
+    :new.row_version_number := nvl(:old.row_version_number,1) + 1; 
+  end if; 
+  if inserting or updating then 
+    :new.updated := localtimestamp; 
+    :new.updated_by := nvl(wwv_flow.g_user,user); 
+  end if; 
+end; 
+/
+
+DROP INDEX AGREEMENT_ID_FK_0 ;
+CREATE INDEX AGREEMENT_ID_FK_0 ON NPM_PROPERTY(AGREEMENT_ID) ;
+DROP INDEX BUILDING_ID_FK_1 ;
+CREATE INDEX BUILDING_ID_FK_1 ON NPM_FLOOR(BUILDING_ID) ;
+DROP INDEX BUILDING_ID_FK_2 ;
+CREATE INDEX BUILDING_ID_FK_2 ON NPM_PROPERTY(BUILDING_ID) ;
+DROP INDEX FLOOR_ID_FK_3 ;
+CREATE INDEX FLOOR_ID_FK_3 ON NPM_PROPERTY(FLOOR_ID) ;
+DROP INDEX DEPARTMENT_ID_FK_4 ;
+CREATE INDEX DEPARTMENT_ID_FK_4 ON NPM_CONTACT(DEPARTMENT_ID) ;
+DROP INDEX AGREEMENT_ID_FK_5 ;
+CREATE INDEX AGREEMENT_ID_FK_5 ON NPM_EMAIL(AGREEMENT_ID) ;
+DROP INDEX VENDOR_ID_FK_6 ;
+CREATE INDEX VENDOR_ID_FK_6 ON NPM_FORMER_NAME(VENDOR_ID) ;
+DROP INDEX DEPARTMENT_ID_FK_7 ;
+CREATE INDEX DEPARTMENT_ID_FK_7 ON NPM_FORMER_NAME(DEPARTMENT_ID) ;
+DROP INDEX TRIGGER_ID_FK_8 ;
+CREATE INDEX TRIGGER_ID_FK_8 ON NPM_AGREE_TRIG(TRIGGER_ID) ;
+DROP INDEX AGREEMENT_ID_FK_9 ;
+CREATE INDEX AGREEMENT_ID_FK_9 ON NPM_AGREE_TRIG(AGREEMENT_ID) ;
+DROP INDEX RECEIVER_ID_FK_10 ;
+CREATE INDEX RECEIVER_ID_FK_10 ON NPM_EMAIL(RECEIVER_ID) ;
+DROP INDEX AGREEMENT_ID_FK_11 ;
+CREATE INDEX AGREEMENT_ID_FK_11 ON NPM_AGREE_APP(AGREEMENT_ID) ;
+DROP INDEX PROGRAMATIC_APPROVER_FK_12 ;
+CREATE INDEX PROGRAMATIC_APPROVER_FK_12 ON NPM_DEPARTMENT(PROGRAMATIC_APPROVER) ;
+DROP INDEX VENDOR_CONTACT_ID_FK_13 ;
+CREATE INDEX VENDOR_CONTACT_ID_FK_13 ON NPM_AGREEMENTS(VENDOR_CONTACT_ID) ;
+DROP INDEX APPROVAL_ID_FK_14 ;
+CREATE INDEX APPROVAL_ID_FK_14 ON NPM_AGREE_APP(APPROVAL_ID) ;
+DROP INDEX VEN_FORMER_NAME_ID_FK_15 ;
+CREATE INDEX VEN_FORMER_NAME_ID_FK_15 ON NPM_AGREEMENTS(VEN_FORMER_NAME_ID) ;
+DROP INDEX DEPT_FORMER_NAME_ID_FK_16 ;
+CREATE INDEX DEPT_FORMER_NAME_ID_FK_16 ON NPM_AGREEMENTS(DEPT_FORMER_NAME_ID) ;
+DROP INDEX CURRENT_NAME_ID_FK_17 ;
+CREATE INDEX CURRENT_NAME_ID_FK_17 ON NPM_DEPARTMENT(CURRENT_NAME_ID) ;
+DROP INDEX VENDOR_ID_FK_18 ;
+CREATE INDEX VENDOR_ID_FK_18 ON NPM_CONTACT(VENDOR_ID) ;
+DROP INDEX AGREE_APP_ID_FK_19 ;
+CREATE INDEX AGREE_APP_ID_FK_19 ON NPM_TICKLERS(AGREE_APP_ID) ;
+DROP INDEX SENDER_ID_FK_20 ;
+CREATE INDEX SENDER_ID_FK_20 ON NPM_EMAIL(SENDER_ID) ;
+DROP INDEX CONTACT_ID_FK_21 ;
+CREATE INDEX CONTACT_ID_FK_21 ON NPM_TICKLERS(CONTACT_ID) ;
+DROP INDEX AGREEMENT_ID_FK_22 ;
+CREATE INDEX AGREEMENT_ID_FK_22 ON NPM_DOCUMENT(AGREEMENT_ID) ;
+DROP INDEX DEPARTMENT_ID_FK_23 ;
+CREATE INDEX DEPARTMENT_ID_FK_23 ON NPM_AGREEMENTS(DEPARTMENT_ID) ;
+DROP INDEX DEPARTMENT_ID_FK_24 ;
+CREATE INDEX DEPARTMENT_ID_FK_24 ON NPM_TICKLERS(DEPARTMENT_ID) ;
+DROP INDEX DEPT_CONTACT_ADMIN_ID_FK_25 ;
+CREATE INDEX DEPT_CONTACT_ADMIN_ID_FK_25 ON NPM_AGREEMENTS(DEPT_CONTACT_ADMIN_ID) ;
+DROP INDEX DEPT_CONTACT_ID_FK_26 ;
+CREATE INDEX DEPT_CONTACT_ID_FK_26 ON NPM_AGREEMENTS(DEPT_CONTACT_ID) ;
+DROP INDEX EMAIL_ID_FK_27 ;
+CREATE INDEX EMAIL_ID_FK_27 ON NPM_DOCUMENT(EMAIL_ID) ;
+DROP INDEX AGREEMENT_ID_FK_28 ;
+CREATE INDEX AGREEMENT_ID_FK_28 ON NPM_TICKLERS(AGREEMENT_ID) ;
+DROP INDEX VENDOR_ID_FK_29 ;
+CREATE INDEX VENDOR_ID_FK_29 ON NPM_AGREEMENTS(VENDOR_ID) ;
+DROP INDEX VENDOR_ID_FK_30 ;
+CREATE INDEX VENDOR_ID_FK_30 ON NPM_TICKLERS(VENDOR_ID) ;
+DROP INDEX PROPERTY_ID1_FK_31 ;
+CREATE INDEX PROPERTY_ID1_FK_31 ON NPM_PROPERTY(PROPERTY_ID1) ;
+DROP INDEX CURRENT_NAME_ID_FK_32 ;
+CREATE INDEX CURRENT_NAME_ID_FK_32 ON NPM_VENDOR(CURRENT_NAME_ID) ;

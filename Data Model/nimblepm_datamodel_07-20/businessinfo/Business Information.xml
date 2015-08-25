@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="726CBBBB-EE91-16D6-E2E0-5668D811CC9E">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:04:03 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

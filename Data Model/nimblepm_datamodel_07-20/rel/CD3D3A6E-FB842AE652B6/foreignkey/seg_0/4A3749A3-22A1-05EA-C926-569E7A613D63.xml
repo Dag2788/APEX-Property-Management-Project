@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4A3749A3-22A1-05EA-C926-569E7A613D63" name="NPM_AGREE_APP_NPM_APPROVALS_FK">
+<sourceDDLFile>schema_test.sql</sourceDDLFile>
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:05:15 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+<importedID>31DA517E-9808-9B62-5977-2185494235AE</importedID>
+<containerWithKeyObject>AC991694-154F-9FE4-D3E7-1581F9114BA9</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>D478F56B-7D8D-F9F3-0213-92BF13C4EF9F</localFKIndex>
+<keyObject>E6B8F8F4-4CF8-8396-57AD-9DB472691CAB</keyObject>
+<mandatory>false</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="NPM_DOCUMENT" directorySegmentName="seg_0" id="1E7FA020-5E48-40E5-033E-B88C398DFE59">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:05:15 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ROW_VERSION_NUMBER" id="0904FFAD-5D10-1D37-34B3-E9A19626E12D">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:05:15 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CREATED" id="0DD3CCE2-52B1-0456-D1D3-677010933012">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:05:15 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FILE_DATA" id="1A1AFCC6-5685-5701-D26C-9D52FE85ECD3">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:05:15 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FILE_CHARSET" id="1C998FFA-5DD2-7295-2D4D-6E0D0CFE0F6C">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:05:15 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NPM_EMAIL_EMAIL_ID" id="1E616E49-FB2F-CE72-7701-E79ED07868DE">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:05:15 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FILE_COMMENTS" id="21168E88-E261-6888-1C0E-3ED02D79B0DA">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:05:15 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CREATED_BY" id="3C127079-6584-D127-3CCE-4B3909C07E18">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:05:15 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="AGREE_APP_ID" id="3E8DC455-8AE6-9A14-AF42-117D452C8597">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:05:15 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FILENAME" id="47797B3D-BC53-CF55-151B-4C45586EB8C2">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:05:15 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NPM_AGREEMENTS_AGREEMENT_ID" id="5669276F-60C1-9899-DA74-087AA6C04E9E">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:05:15 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DOCUMENT_ID" id="69F6E24A-5BF7-9603-EA38-0D0BD25D0DCB">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:05:15 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="UPDATED_BY" id="78B53284-2FD8-0454-AC88-934510286E31">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:05:15 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FILE_SIZE" id="96BBCECD-B4C1-9FAF-BFAC-7E4BE5CE5552">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:05:15 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TAGS" id="9CA0072B-026A-E54D-945B-E9C7B342392E">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:05:15 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FILE_MIMETYPE" id="B0E99A53-F8BF-A847-CF9E-E5C26835E4B3">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:05:15 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="UPDATED" id="B6752F75-1F51-A42F-D61A-DC063D2CD5DE">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:05:15 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="NPM_DOCUMENT_NPM_EMAIL_FK" id="5B6BD00D-1CF6-EFCE-1D2F-D37D1117CCB2">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:05:15 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="NPM_DOCUMENT_NPM_AGREEMENTS_FK" id="8A342AC9-77BF-6E2C-FEBE-5D52EF0F6CB4">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:05:15 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="NPM_DOCUMENT_PK" id="AEFCE9ED-89AC-AD9C-1FDA-912DF89D9C95">
+<createdBy>carlostrejo</createdBy>
+<createdTime>2015-07-06 20:05:15 UTC</createdTime>
+<ownerDesignName>nimblepm_datamodel_07-20</ownerDesignName>
+<logging></logging>
+<segment>3BB7869C-9A3F-44DF-0918-75642E30C39F</segment>
+<indexSegment>3BB7869C-9A3F-44DF-0918-75642E30C39F</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

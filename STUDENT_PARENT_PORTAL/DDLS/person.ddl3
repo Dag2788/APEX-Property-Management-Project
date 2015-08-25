@@ -1,0 +1,44 @@
+DROP SEQUENCE NPM_PERSON_seq ; 
+create sequence NPM_PERSON_seq 
+start with 100 
+increment by 1 
+nomaxvalue 
+;
+
+create or replace trigger NPM_PERSON_PK_trig 
+before insert on NPM_PERSON
+for each row 
+begin 
+select NPM_PERSON_seq.nextval into :new.person_id from dual; 
+end; 
+/
+alter table NPM_PERSON add created date ; 
+alter table NPM_PERSON add created_by VARCHAR2 (255) ; 
+alter table NPM_PERSON add row_version_number integer ; 
+alter table NPM_PERSON add updated date ; 
+alter table NPM_PERSON add updated_by VARCHAR2 (255) ; 
+/
+create or replace trigger NPM_PERSON_AUD_trig 
+before insert or update on NPM_PERSON 
+for each row 
+begin 
+  if inserting then 
+    :new.created := localtimestamp; 
+    :new.created_by := nvl(wwv_flow.g_user,user); 
+    :new.updated := localtimestamp; 
+    :new.updated_by := nvl(wwv_flow.g_user,user); 
+    :new.row_version_number := 1; 
+  elsif updating then 
+    :new.row_version_number := nvl(:old.row_version_number,1) + 1; 
+  end if; 
+  if inserting or updating then 
+    :new.updated := localtimestamp; 
+    :new.updated_by := nvl(wwv_flow.g_user,user); 
+  end if; 
+end; 
+/
+
+DROP INDEX NPM_BUILDING_BUILDING__FK_0 ;
+CREATE INDEX NPM_BUILDING_BUILDING__FK_0 ON NPM_PERSON(NPM_BUILDING_BUILDING_ID) ;
+DROP INDEX NPM_PROPERTY_PROPERTY__FK_1 ;
+CREATE INDEX NPM_PROPERTY_PROPERTY__FK_1 ON NPM_PERSON(NPM_PROPERTY_PROPERTY_ID) ;
